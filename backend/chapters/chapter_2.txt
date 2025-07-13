@@ -1,0 +1,299 @@
+Advertising Basics
+
+The Advertiser-Publisher Relationship
+Digital advertising is a global multi-billion dollar industry comprising of thousands of companies, but at the heart of it all are two key players: the advertiser
+and  the publisher.
+
+The advertiser-publisher relationship dates back well before the invention of the Internet.
+
+Publishers, such as newspapers and magazines, would sell ad space to advertisers as a way to generate additional revenue on top of their regular subscriptions and individual sales. 
+
+Nowadays anyone can become a publisher by simply creating a website or developing a mobile app and selling ad space to advertisers. This has completely changed the dynamics of the traditional advertiser-publisher relationship.
+
+What is an Advertiser?
+An advertiser is a brand or company (e.g. advertising agency) that wants to get its product or service in front of its target audience to build brand awareness, develop brand loyalty, and increase sales. 
+
+Below are some examples of brands that spend billions of dollars ($USD) per year on advertising:
+
+Examples of brands that spend billions of dollars each year.
+Advertisers aren’t only big brands; millions of small- and medium-sized enterprises (SMEs) and organizations advertise their services and products online every day. 
+
+Large brands, such as those listed above, are often represented by advertising agencies, whose job is to:
+
+Create the campaign: Designing the graphical elements and message of the ad.
+
+Execute the campaign: Configuring the campaign (e.g. setting up targeting and frequency capping) and launching it across different channels (e.g. web, in-app, and DOOH).
+
+Manage the campaign: Measuring campaign results and making changes to improve performance. 
+
+A brief history of advertising agencies
+
+The first agencies date back as far as 1786 when William Taylor opened his office in London, today acknowledged as the first advertising agency in history. 
+
+However, while the UK business is considered the precursor of advertising agencies in Europe, it was Volney B. Palmer who took the idea across the ocean, opening the first agency on American soil in Philadelphia in 1842. 
+
+Volney would buy large amounts of space in various newspapers at a discounted rate, then resell the space at higher rates to advertisers. The actual ad, including the copy, layout, and artwork, was prepared by the client, which basically made Palmer an ad-space broker with little influence on the creative side.
+
+Some agents, at the request of their clients, created directories with advertising rates of newspapers in New England. Many agencies made a profit buying newspaper space and reselling it with a markup. 
+
+Many other advertising agencies soon followed the same business model until the 19th century when N.W. Ayer & Son was founded in New York. 
+
+The agency, rather than simply selling space, provided a full range of services, including planning, creating, and executing complete campaigns for its customers.
+
+It made itself famous working for clients such as De Beers, AT&T, and the U.S. Army, creating a number of memorable slogans.
+
+We talk more about ad agencies in chapter 04: The Main Technology Platforms and Intermediaries in the Digital Advertising Ecosystem
+
+Source — Adland: A Global History of Advertising, published by Kogan Page; Second edition (July 28, 2013)
+
+Throughout this book, you’ll see us use the term advertiser, which can either refer to an advertiser working in-house at a brand, or an ad agency working on behalf of a brand.
+
+Why Do Brands and Companies Advertise?
+There are a number of reasons why brands and companies advertise. Below are some of the main advertising strategies:
+
+Brand awareness: Reach a broad consumer audience, engage with them, and maximize the time they are exposed to the brand.
+
+Direct response (aka prospecting, acquisition): Generate new leads, sales, and conversions by displaying ads that persuade the consumer to take some sort of action, such as fill in a form.
+
+Retention: Re-engage with existing customers and consumers who have previously interacted or been exposed to a brand, which is very often conducted via retargeting (aka remarketing) campaigns.
+
+What Is a Publisher?
+A publisher can be defined as any company that produces content that attracts an audience. 
+
+Examples of publishers include newspapers and magazines in the offline world, and websites and mobile apps in the online world. 
+
+Examples of publishers
+Above are examples of publishers displayed on different devices.
+Notice how they all have an ad displayed?
+The term publisher doesn’t solely refer to websites, it can also extend to content or publishing platforms, such as YouTube, Facebook, and Hulu. 
+
+How Do Publishers Monetize Their Websites and Apps?
+There are a number of ways publishers can monetize their websites or apps depending on their strategy.
+
+Some monetization methods include:
+
+Digital Ads
+
+This is by far one of the most popular ways to monetize websites and apps of all shapes and sizes. Depending on the pricing model, publishers can either make money each time a visitor clicks on an ad or for every 1,000 impressions.
+
+See chapter 05. The Main Digital Advertising Mediums and Channels for more information about the different types of digital advertisements.
+
+Paywalls and Registration Walls
+Paywalls require users to either buy a subscription, pay a one-time fee, create a free account, or simply provide their email address in order to access the content
+Many popular news and premium-content sites hide their content behind paywalls and registration walls.
+
+Paywalls: Require users to either buy a subscription or pay a one-time fee to access the content.
+
+News and media companies are increasingly implementing paywalls as a way to make up for the financial losses they’ve experienced as a result of ad blockers.
+
+Registration walls: Require users to create a free account, or simply provide their email address in order to access the content.
+
+Registration walls allow publishers to collect first-party data and build addressable audiences.
+
+Publishers can then offer these audiences to advertisers, which can be used for ad targeting. However, this method is still susceptible to ad blockers.
+
+Products and Services
+Some publishers that monetize their websites by either selling their own products and services
+There are some publishers that monetize their websites by either selling their own products and services or by partnering with other companies and promoting their products and services, for which they would receive a commission or percentage of the revenue.
+
+Examples include e-commerce stores, affiliate sites, industry-research companies, and sites that offer other premium content and digital goods.
+
+Selling Data
+Publisher can sell their data as a way to monetize their website
+Large publishers with access to thousands of data sets and user profiles are able to sell the information to data brokers or directly to advertisers. 
+
+Now that we’ve defined the two most important players in the online-advertising ecosystem, it’s time to embark on our journey through the online-advertising world, starting with a brief introduction about the technology that powers it all.
+
+What is Advertising Technology (Ad Tech)?
+The way in which online advertising campaigns are run in today’s digital world look completely different to how campaigns were run over the past 150+ years of advertising.
+
+It’s all thanks to the rise of advertising technology, which has transformed the way media buyers manage, measure, and optimize online advertising campaigns. 
+
+Advertising technology (also written as Ad Tech, AdTech, adtech, ad tech, ad technology) refers to the software and tools used to create, run, manage, measure, and optimize digital advertising campaigns. 
+
+All parties involved in digital advertising—from brands and advertisers to ad agencies, technology vendors, and publishers—use one or more pieces of advertising technology. 
+
+Since the very first pieces of AdTech were introduced in the mid-1990s, a number of new systems have emerged to solve various problems and capitalize on new opportunities that have risen along the way.  
+
+AdTech has revolutionized the way brands connect with their audiences and helped both sides get what they want and need:
+
+Advertisers: Want successful ad campaigns targeted at highly engaged and valued audiences with measurable results.
+
+Publishers: Want high percentages of ad inventory sold at the highest possible price with minimal overhead costs.
+
+The relationship between an advertiser and a publisher
+In the image above, the advertiser (The Energy Drink Co.) pays to have its ads displayed on the publisher’s website (Daily News).
+In essence, this has always been the goal of advertising, but the popularization of the Internet and introduction of AdTech added new channels, mediums, and scale, among other things, to the entire process.
+
+For example, instead of a brand or ad agency in Chicago calling up the Chicago Tribune and placing an order for a full-page ad in the Sunday edition with the intention of reaching Chicagoans, the brand could now buy ad space on multiple publishers’ websites and only display ads to people from Chicago that would potentially be interested in buying the advertiser’s product or service.
+
+These visitors would match the advertiser’s ideal target-customer profile (aka target audience), made up of a range of criteria, such as demographics, interests, behaviors, recent purchases, and web history.
+
+The advertiser would also want to reach its desired audience at the right time, at the right place, and on the right device—for example, during business hours at home on a laptop, or late-night in a city center on a mobile device.
+
+What is a target audience?
+
+A target audience is a group of consumers who are the best fit for potential buyers of an advertiser’s product or service. They are typically characterized with certain needs or desires.
+
+Usually, the target audience can be based on a combination of demographics, interests, and/or behaviors of the consumers.
+
+It’s not only the medium that has changed, but the actual media-buying and selling process has also adapted to the online world.
+
+Back when brands would advertise in newspapers and magazines, the brand’s advertisers would contact the newspaper’s sales team directly and purchase available ad space. 
+
+Nowadays, most online media is bought and sold with the use of advertising technology, but it is responsible for more than just moving an ad from an advertiser to a publisher. 
+
+Here’s a list of just some of the things AdTech is responsible for:
+
+Making decisions about which ads to display to a specific group of users based on the advertiser’s targeting criteria.
+Delivering online media (ads) across different channels (web and in-app mobile) and devices (smartphones, laptops, tablets, etc.).
+Optimizing campaign performance for advertisers and yield for publishers. 
+Collecting data about users and creating audiences.
+Producing measurement and analytics reports. 
+Billing and media-buying process management.
+In chapter 04. The Main Technology Platforms and Intermediaries in the Online Display Advertising Ecosystem, we take a closer look at how the different AdTech platforms work and the role they play in digital advertising.
+
+Important Terms Explained
+One of the main things you’ll discover by reading this book, if you haven’t already, is that the online advertising industry has its own terminology and an endless supply of initialisms.
+
+We’ll now take a look at some of the most important terms that you’ll come across throughout this book, but you can also check out our AdTech Glossary for an extensive list of advertising technology terminology.
+
+Ad Slot
+
+An ad slot refers to the actual space on a website that is filled with ads. You can think of this as a dedicated part of a website for displaying ads. In an ad slot there is an ad tag that communicates with the ad server to load an actual ad.
+
+Ad Space
+Examples of slots and space on a publisher's website
+Ad space is the actual impression available in the ad slot. The terms ad space and ad slot are often used interchangeably, but the main difference is that an ad slot is where the ad space is hosted.
+
+To help clarify this point, think about a billboard. The actual billboard would be the ad slot and the white section inside the billboard where the ads are placed would be the ad space.
+
+Inventory
+Inventory, aka ad inventory, is the name given to all the ad space available on a website. Sometimes, inventory and ad space are used interchangeably. 
+
+An example of inventory from different publishers
+There are three main types of inventory: premium, remnant, and long-tail. 
+
+Premium inventory is a publisher’s most sought-after or most-valuable inventory. It is often inventory located on recognizable publisher sites and typically on high-traffic pages, such as a home page, or in highly visible areas, such as at the top of a page. 
+
+Remnant inventory is inventory that a publisher has been unable to sell directly to advertisers through direct deals and other primary inventory-monetization channels. It’s basically leftover inventory publishers are willing to sell for less than their standard price. 
+
+Long-tail inventory is inventory found on small sites and blogs. A large chunk of this type of inventory is sold via Google AdSense. Long-tail sites sometimes seek better monetization alternatives to AdSense, for example, by joining affiliate programs and networks.
+
+Creative
+A creative is the file containing the actual advertisement that the user is exposed to. The most common types of creatives are graphical files (either static or animated), video files, and audio files, and can come in many formats, including GIF, JPEG and HTML5 (earlier Flash), as well as MOV, FLV, MP4 for video files.
+
+Examples of display, video, and rich media
+Examples of different types of ads.
+Creative Specifications
+Creative specifications prepare every party in the ecosystem to receive, handle, and display the advertisements, from ad agencies designing the creatives, to AdTech vendors delivering and measuring the ads, through to publishers preparing their sites to display ads. 
+
+These specifications have been developed by the Interactive Advertising Bureau (IAB), an organization designed to deliver standardization to the online advertising industry.
+
+For the most part, creative specifications:
+
+Specify dimensions, size, and file formats. E.g:
+300×250 pixels (dimensions). Maximum 100 KB (size). HTML5, GIF, or JPEG (file format).
+Outline good practices. E.g:
+The <noscript> tag should be applied, as this provides a path to an alternate image when users have scripts disabled in their browser.
+LEAN principles: Lightweight, Encrypted, Ad-choice-supported, Non-invasive ads.
+Define functional requirements. E.g:
+Maximum animation length of 15 seconds.
+Audio must be user initiated (i.e. they must mute/unmute the audio), with mute being the default state.
+Expansion is not allowed.
+Include other technical requirements. E.g:
+A minimum 24 frames per second (fps).
+Z-index guidelines to specify the content elements on a webpage. These guidelines help publishers provide a seamless user experience by ensuring ads are displayed on the correct CSS layer, which prevents ads and the publisher’s content (e.g. text and images) from being displayed on top of one another.
+Display Ad Formats
+You would have noticed already that ads shown in web browsers can come in different shapes and sizes depending on where they are shown and on which device they are displayed (e.g. desktop or mobile).
+
+Each type of ad has its own set of formats, most of which were created by the IAB in the late 1990s/early 2000s as a way to create a standard for the industry and make it easier for advertisers and publishers to trade media. 
+
+Traditionally, the most popular online ad formats have been the following:
+
+The most popular display formats
+These types of ad formats were part of the universal ad package (UAP), which was used in online advertising for most of the past decade. 
+
+An example of differed formats.
+The above ad formats are displayed in pixels (px), however, the most recent update from the IAB has changed these ad formats slightly.
+
+IAB New Ad Portfolio
+In July 2017, the Interactive Advertising Bureau (IAB) released a finalized version of the new standard, known as IAB Standard Ad Unit Portfolio which was the biggest update since 2002 and supersedes the universal ad package (UAP).
+
+The Ad Unit Portfolio has been enriched with ad units allowing for each creative to adjust to a variety of screen sizes and resolutions.
+
+The ad units now include ad sizes based on aspect ratio rather than on specific sizes in pixels, and incorporate the LEAN Principles: 
+
+Lightweight
+Encrypted
+AdChoices supported
+Non-invasive ads across mobile, display, and native ad formats.
+
+An example of 1:1 ration format.
+An example of 1:2 ration format.
+The above images illustrate the difference between ads that have an aspect ratio of 1:1 and 1:2. The current IAB ad formats consist of nine aspect ratios. Learn more at iab.com
+
+The aspect-ratio feature allows ads to adjust to match various screen sizes and resolutions. The IAB’s new ad portfolio is based on HTML5 and also includes guidelines for augmented reality (AR), virtual reality (VR), social media, mobile video, emoji ad messaging, and 360-degree video ads.
+
+Impression
+An impression, also sometimes referred to as an ad view, is counted every time a creative is served.
+
+An example of an impression on a publisher's website.
+It’s important to note that if a user refreshed the page and saw the exact same ad, then another new impression would be counted.
+
+See chapter 06. Ad Serving chapter to learn more about impressions and how they are tracked.
+
+Viewable Impression
+A viewable impression is a metric used to determine whether an impression was actually seen by a real human or whether it was “seen” by a bot or hidden from the user’s view—for example, at the bottom of the page where the user doesn’t scroll. 
+
+The below chart shows when an impression is deemed viewable according to the standard set by the IAB:
+
+Viewable impressions according to the IAB
+Click
+A click is counted when someone clicks on an ad, even if the person doesn’t reach the advertiser’s website, for example, if it’s temporarily unavailable.
+
+Examples of clicks and impressions
+Conversion
+A conversion is counted every time a user completes a goal set by an advertiser or marketer. 
+
+For example, a goal could be to get consumers to purchase a product, sign up for an online service, download a file like an ebook, or even fill in a contact form on a landing page.
+
+An example of a conversion on a landing page
+The form on the left represents the goal—get visitors to download the free guide—and the graph on the right represents the number of conversions per month (how many times the free guide was downloaded).
+Landing Page
+A landing page is a web page that an online user “lands on” after clicking on an ad or link.
+
+Landing pages are designed to be different than the usual pages of an advertiser’s website, as they are built with a single objective in mind—get the user to convert and complete a goal, like the ones mentioned above. 
+
+Advertising campaigns usually direct traffic to landing pages to increase the number of conversions, especially when it’s a direct-response or prospecting campaign.
+
+An example of the difference between a website and a landing page.
+The page on the left is a dedicated landing page, as it has one common theme (programmatic media-buying development services) and one common goal (schedule a one-on-one consultation). The page on the right is the homepage and has a more general theme with a number of different navigation options.
+The Effectiveness of a Campaign
+Throughout this book, you will see us talk about the effectiveness of an advertising campaign.
+
+This refers to meeting the goals and objectives of the campaign, whether that be increasing the number of conversions and sales or traffic to the advertiser’s landing page or website.
+
+Pricing Models
+There are a few ways advertisers pay to show their ads on publisher sites.
+
+Cost Per Mille (CPM)
+The CPM pricing model refers to the cost per 1,000 impressions; the word mille is Latin for one thousand.
+
+The reason we use thousands instead of individual impressions is that the price per impression is very small compared to clicks or conversions and it would be cumbersome from an accounting perspective if the advertiser paid $0.002 per impression. 
+
+Even though the calculation in ad servers and DSPs is done on a per-impression cost (e.g. $0.002 per impressions), the CPM formula is presented to the advertiser, publisher, or AdOps team so that it’s easier for them to calculate. 
+
+Cost Per Click (CPC)
+Cost per click is a pricing model used to express how much each click on an ad or link would cost the advertiser.
+
+If an advertiser buys ad inventory from a publisher on a CPC basis of $1.10, then every time a visitor clicks on the ad, the advertiser is charged $1.10. 
+
+Cost Per Action/Acquisition (CPA) 
+With this model, the publisher or affiliate only receives payment from the advertiser when a user has converted (e.g. purchased a product or filled in a lead form) as a result of viewing or clicking on an ad. This model is often applied in affiliate networks and isn’t as popular as the CPM or CPC models. 
+
+Advertisers generally choose the pricing model based on their advertising strategy. For example, if an advertiser wants to gain brand awareness on a large scale, it would likely choose the CPM model. If it wanted to increase conversions, it would probably go for either the CPC or CPA model.
+
+Did You Know?
+
+You can get estimates on current display advertising figures, including CTR, ad format performance, vertical performance, etc., using Google’s Display Benchmark tool.

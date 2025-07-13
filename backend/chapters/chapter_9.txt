@@ -1,0 +1,784 @@
+09.
+
+Media-Buying Methods: Programmatic, Real-Time Bidding (RTB), Header Bidding, and PMP
+
+As we’ve covered previously in this book, the online advertising industry is made up of many advertising technology platforms, such as ad servers, DSPs, SSPs and ad networks. 
+
+The goals of these AdTech platforms vary – some are responsible for serving ads, while others are designed to help advertisers and publishers buy and sell online media. 
+
+In this chapter, we’ll take a look at the media-buying processes that power these AdTech platforms.
+
+
+
+The Main Media-Buying Processes
+Below is an overview of the main media-buying processes that we’ll be covering in this chapter:
+
+The main media-buying processes in programmatic.
+Now let’s take a look at these processes in more detail.
+
+Manual Media Buying
+In the early days of online advertising, the buying and selling of ads between advertisers and publishers was a very manual process.
+
+Advertisers would work with publishers and send them ad tags directly. Because there weren’t any technological platforms involved, there wasn’t any way to define targeting or produce reports. 
+
+Luckily, the introduction of ad servers solved this and kickstarted the programmatic media-buying revolution.
+
+Programmatic Media Buying
+What Does Programmatic Mean?
+The term programmatic can mean different things to different people, but here’s a simple and clear definition:
+
+Programmatic refers to the use of technology, algorithms and data to buy and sell online media in an automated fashion. 
+
+Compare this to the manual way of buying advertising, which doesn’t involve the use of technology or algorithms and is done human to human. 
+
+Below are some examples that illustrate the difference between the execution processes of manually purchased media and programmatically purchased media:
+
+Manual media buying
+
+An example of manual media buying
+The execution of a manual media transaction:
+
+The advertiser and the publisher sign an insertion order (IO), which is a contract that defines the terms and conditions of the campaign, such as flight dates and placement.
+The advertiser sends its ad tags to the publisher. These ad tags are pieces of HTML that will display the ad on the publisher’s website.
+The publisher adds the advertiser’s ad tags to its website and starts the campaign.
+Programmatic media buying
+
+An example of programmatic media buying
+The execution of a programmatic media transaction:
+
+The advertiser and the publisher sign an insertion order (IO), just like they do with manual media transactions.
+The advertiser’s AdOps team then configures the campaign in the advertiser’s ad server and sends the ad tags to the publisher.
+The publisher’s AdOps team sets up the campaign, adds the advertiser’s ad tags to the publisher’s ad server and starts the campaign.
+Although the above processes look similar, the main advantage of using ad servers is the added benefits they provide over manual media buying, such as targeting, placement, reporting, and the elimination of mundane and repetitive tasks.
+
+For example, instead of a publisher adding the advertiser’s ad tag on its website that would simply display the ad when the page loads, the ad tag could instead redirect to the advertiser’s ad server. The benefit of this is that the ad server could then decide which ad to show the user based on a number of factors, such as location and device. 
+
+Another key difference between manually purchasing and programmatically purchasing media is the speed with which we can start and modify the campaign when it’s running. 
+
+Creating and launching a campaign in a programmatic AdTech platform such as a DSP takes a matter of minutes. Without programmatic technologies, it can take several days before the campaign begins.
+
+Also, when buying media manually without programmatic platforms, each change to the campaign has to go through the publisher’s AdOps team, which can take a few days to implement. When tweaking the campaign in programmatic media-buying platforms, changes made by the AdOps are reflected close to real time.
+
+This becomes very important, as brands have to react fast to any changes and optimizing a campaign can be done on an hourly or daily basis.  
+
+Campaign Optimization Basics: Manual vs. Algorithms
+Campaign optimization involves making changes to the campaign in order to improve its performance and make media buys more economical. 
+
+There are a number of areas that can be changed in a campaign, such as the targeting criteria and the ads themselves. 
+
+Campaigns can be optimized either manually or via algorithms.
+
+Manual optimization
+Manual optimization typically involves advertisers adjusting their CPC, CPA and CPM bids, usually on a daily basis. 
+
+Basically, an advertiser uses data broken down by all the different dimensions provided by the ad platform, such as geolocation, gender, interests, device type, etc., and uses those dimensions to extend or limit targeting to specific groups. 
+
+By doing so, the advertiser creates very specific targeting criteria that provides the most optimal CTR, CPA or conversion rate. 
+
+In order to make the optimizations, advertisers utilize data to determine which bids to adjust, including:
+
+The ads’ CTRs
+The number of clicks generated by the ads
+The number of impressions generated by the ads
+Below is a process media buyers could use to manually optimize a campaign:
+
+Start by breaking down the data by one or more dimensions, such as geolocation, device, publisher domain, time of day, carrier, etc.
+Filter out non-significant data. For example, only ads that generate a few impressions or clicks, or filter by significant data, such as ads that generate the most impressions or clicks. 
+See the best- and worst-performing values, such as device type or geolocation.
+Also, you could view certain metrics, depending on what you want to optimize. Examples could include the effective cost per mille (eCPM) of an ebook download or something lower in your sales or marketing funnel, such as cost per qualified lead.
+Blacklist the areas (i.e. exclude from targeting) that are underperforming or not performing at all.
+There are a number of other techniques an advertiser could use to optimize a campaign, including: 
+
+Running A/B tests: Making changes to the creatives and running tests to see which variant performs better.
+Personalizing the creatives (dynamic creatives): Changing the messaging or visual aspects of the creatives to make them more relevant for different segments. Examples can include adding a city name to the creatives so that it matches the user’s location. 
+Experimenting with different traffic sources: Seeing how different sources (e.g. websites), mediums (e.g. display and video ads) and AdTech platforms perform by experimenting with a small percentage of an advertiser’s budget (5-10%) and compare metrics like the eCPA, eCPM, etc., against one another.
+Automated optimization
+Automated optimization involves using algorithms to power the optimization process. 
+
+Many AdTech platforms have built-in algorithms that deliver some sort of automated optimization functionality. 
+
+The key component of successful automated optimization is historical data. The algorithms are only able to make decisions and optimizations if they have the proper amount and quality of data to fuel them.
+
+Programmatic Direct
+Programmatic direct (aka programmatic guaranteed, programmatic reserved, automated guaranteed) is a method of buying and selling media, but unlike RTB, no auctions are held. 
+
+Instead, an advertiser and publisher agree on the inventory and the CPM, then the rest of the process is handled programmatically via the use of AdTech platforms. 
+
+Programmatic direct is very similar to the way media was bought and sold prior to the Internet and even in the early days of online advertising, but provides more scale thanks to the use of advertising technology.
+
+An example of programmatic direct
+The programmatic-direct process is similar to placing an order on an ecommerce platform, but instead of buying a product, you are buying media inventory.
+
+The process looks like this:
+
+An advertiser browses through catalogs of websites.
+It chooses placements, flight dates and the volume of impressions.
+It configures creatives and additional tracking pixels.
+It places an order on the platform.
+The publisher audits and verifies the campaign.
+The order is executed without additional involvement from the AdOps team, except for an audit, which it carries out.
+The main advantage of programmatic direct is the ability to secure premium inventory at a premium price.
+
+Although programmatic direct means advertisers may need to pay higher CPMs compared to other media-buying processes (such as RTB), they are able to secure premium inventory before the ad space is offered on an open RTB auction. This allows them to reach their target audience when they otherwise might not have been able to. 
+
+For publishers, this results in higher CPMs. 
+
+The main disadvantage of programmatic direct for advertisers is that there are less targeting options available, as they are simply displaying ads based on the context and known audience of a website. 
+
+For example, a bank could show an ad about its new bank account on a financial website. 
+
+Compare that to RTB, where the same bank could show the same ad across many different websites only to people who had visited its website.
+
+For publishers, the main disadvantage is that they may not be able to sell all of their inventory via programmatic direct. However, many publishers set up a waterfall to ensure they sell as much inventory as they can. More on this below.
+
+Real-Time Bidding (RTB)
+The mid-to-late ‘90s saw a number of ad networks emerge, so much so that by the mid-2000s there were hundreds of ad networks on the market. 
+
+However, ad networks soon found themselves falling victim to either underfilling or overfilling ad campaigns.
+
+An explanation of underfilling and overfilling of programmatic media
+Publishers soon realized that their ad network wasn’t selling all of their available inventory, so they started working with more ad networks. However, this meant adding more tags to their websites, which lead to latency issues and a poor user experience. 
+
+To combat the latency issues, a new type of platform emerged, supply-side platforms (SSPs), originally referred to as network optimizers.
+
+The first supply-side platforms (SSPs)
+
+The first SSPs to hit the market were Collective, Pubmatic, Admeld, and Magnite (formerly The Rubicon Project).
+
+Instead of adding multiple tags to a website, publishers included just one tag that redirected to an SSP.
+
+From there, the SSP worked out which ad networks were interested in purchasing the publisher’s inventory and then finalized the transaction.  
+
+The mid-to-late 2000s not only saw the rise of SSPs, but also demand-side platforms (DSPs).
+
+DSPs emerged as a way for media buyers (advertisers and agencies) to connect to publishers’ inventory offered through SSPs. 
+
+The first demand-side platforms (DSPs)
+
+The first DSPs that emerged were Invite Media (now part of the Google Marketing Platform), dataxu, and MediaMath.
+
+Around the same time, the next revolutionary AdTech platform to hit the online display advertising industry was the ad exchange.
+
+Ad exchanges emerged as a way to help solve the liquidity issues by auctioning off a publisher’s inventory on an impression-by-impression basis.
+
+An example of how real-time bidding works in programmatic media buying.
+The ad exchange handles the buying and selling of media between an advertiser and publisher.
+The easiest way to explain how ad exchanges operate is to compare them to the stock exchange. 
+
+In the same way stock exchanges facilitate the buying and selling of stocks, bonds and other securities, ad exchanges handle the buying and selling of ad impressions between advertisers and publishers in real time.
+
+Did you know?
+
+In 2007, the three largest ad exchanges – DoubleClick, AdECN and RightMedia – were all bought by Google, Microsoft, and Yahoo! respectively.
+
+This ability to buy and sell individual impressions in real time is known as real-time bidding (RTB).
+
+What Is Real-Time Bidding (RTB)?
+Real-time bidding (RTB) is a protocol that was introduced in the late 2000s and was a big game changer for the way online media was bought and sold. 
+
+Originally designed to help publishers sell remnant inventory to advertisers, RTB is now used to sell all types of inventory, including premium inventory.
+
+Instead of buying thousands of impressions from the same publisher, RTB allows advertisers to purchase individual impressions across multiple publishers to reach their target audience more precisely and bid based on the information known about the website and user at that particular time.
+
+Publishers also benefit by receiving higher CPMs for their inventory.
+
+What is the RTB Project (OpenRTB)?
+
+The RTB Project, formerly known as the OpenRTB Consortium and now referred to as OpenRTB, is a group led by the Interactive Advertising Bureau, consisting of AdTech companies from both the demand and supply sides.
+
+Started in November 2010, OpenRTB provides AdTech vendors with an API specification. This protocol (known as the OpenRTB protocol) allows platforms to communicate between one another using a common language to buy and sell digital media.
+
+How Does RTB Work?
+The technical side of RTB is highly complex and involves multiple AdTech platforms.
+
+Below is a detailed illustration and description of how the RTB ad exchange works. 
+
+A detailed look at how real-time bidding (RTB) works.
+A detailed look at how real-time bidding (RTB) works.
+A user visits a page (example.com).
+The page contains an ad slot with JavaScript code that requests content from the first-party ad server, known as an ad request. The request also passes additional data about the user, such as their location, device type and operating system.
+The ad server checks if there are any direct campaigns matching the user. If not, the ad server returns the SSP’s ad tag, which will offer the impression on an RTB auction. 
+The browser loads the script contained in the SSP ad tag from the server. User information and placement details like page URL, size, and restrictions are passed to the ad exchange.
+The ad exchange announces the available ad impression to all bidders via a bid request.
+Bidders evaluate the bid request and match targeting parameters, such as page domain, context, location and other data collected about the user. They then place their bids – basically, they state how much they want to pay for this impression, if anything. They also send the markup of the ad that they would like to display. The bid price and ad markup are enclosed in an object called the bid response.
+The ad exchange receives the bids and the impression goes to the highest bidder. The highest bidder pays the price of the second-highest bid, plus an additional small amount (usually $0.01). This is known as a second-price auction. A win notice containing the final price is sent from the ad exchange to the winning DSP, which is done via a server-to-server request or through the ad markup via a pixel with a price macro that’s filled in automatically by the ad exchange. The winning DSP’s ad markup is sent to the browser.
+The DSP’s ad markup loads in the browser and sends a request to retrieve the creative (ad) from the DSP’s ad server. It is quite common for the ad markup to request the creative from a content-delivery network (CDN) instead of directly from the ad server. An impression-tracking pixel also fires, which notifies the ad server that an impression has been served.
+The DSP’s ad server sends the creative to the browser and the ad displays to the user. 
+This entire process happens in real time when an ad is loaded onto the page, usually within 100–150 milliseconds. To put that in perspective, it takes about 300 milliseconds to blink!
+
+Each time a page is loaded or refreshed, a new ad request is sent from the page, which subsequently starts a new RTB auction. 
+
+What Information Do Bid Requests and Bid Responses Contain?
+Bid requests and bid responses typically use JavaScript Object Notation (JSON) format for its human readability and compactness.
+
+Here’s an example of part of a bid request from the IAB’s OpenRTB 2.5 specification:
+
+
+{
+     "id": "80ce30c53c16e6ede735f123ef6e32361bfc7b22",
+     "at": 1, "cur": [ "USD" ],
+     "imp": [{
+          "id": "1", 
+          "bidfloor": 0.03,
+          "banner": {
+               "h": 250, 
+               "w": 300, 
+               "pos": 0
+          }
+ 
+     }],
+     "site": {
+          "id": "102855",
+          "cat": [ "IAB3-1" ],
+          "domain": "www.foobar.com",
+          "page": "http://www.foobar.com/1234.html ",
+          "publisher": {
+               "id": "8953", 
+               "name": "foobar.com",
+               "cat": [ "IAB3-1" ],
+               "domain": "foobar.com"
+         }
+     },
+     "device": {
+          "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) 
+          AppleWebKit/537.13 (KHTML, like Gecko) Version/5.1.7 
+          Safari/534.57.2",
+          "ip": "123.145.167.10"
+     },
+          "user": {
+          "id": "55816b39711f9b5acf3b90e313ed29e51665623f"
+}
+}
+Here’s an example of a bid response:
+
+
+{
+     "id": "1234567890", 
+     "bidid": "abc1123", 
+     "cur": "USD",
+     "seatbid": [{
+          "seat": "512",
+          "bid": [{
+               "id": "1", 
+               "impid": "102", 
+               "price": 9.43,
+               "nurl": "http://adserver.com/winnotice?impid=102",
+               "iurl": "http://adserver.com/pathtosampleimage",
+               "adomain": [ "advertiserdomain.com" ],
+               "cid": "campaign111",
+               "crid": "creative112",
+               "attr": [ 1, 2, 3, 4, 5, 6, 7, 12 ]
+          }]
+     }]
+}
+The OpenRTB specifications list dozens of objects (e.g. BidRequest, Source, and Device) and object attributes.
+
+These objects and object attributes help DSPs decide whether an impression is worth bidding on and relay other pieces of information to the advertiser via the DSP.
+
+Here’s a list of some of the main OpenRTB objects and their attributes:
+
+Imp (impression)
+
+id
+banner
+video
+audio
+native
+Banner
+
+w (width)
+h (height)
+Video
+
+minduration (minimum duration of video ad)
+maxduration (maximum duration of video ad)
+skip (denotes whether the ad can be skipped)
+There are other objects for audio, native and in-app mobile ads.
+
+Publisher
+
+id
+Name
+Domain
+Device
+
+ua (user agent)
+geo (location)
+devicetype
+make
+model
+os (operating system)
+language
+carrier 
+Geo
+
+lat (latitude)
+lon (longitude)
+country
+region
+city
+zip
+User
+
+id 
+yob (year of birth)
+gender
+Data
+
+id 
+name 
+segment
+Segment
+
+id 
+name 
+value
+For a detailed list of the different objects and attributes, view the OpenRTB 2.5 and 3.0 specifications.
+
+The Benefits of RTB for Advertisers and Publishers
+For Advertisers
+Increased ad effectiveness: Advertisers are able to view the results of their campaigns in real time and make changes to them to improve performance. These changes can be made manually by the advertiser or by a DSP’s algorithms. 
+
+Fraudulent-inventory recognition: Because advertisers have real-time campaign reports, it’s easier to detect fraudulent activity, such as extremely high click-through rates. Many RTB platforms incorporate ad-fraud prevention and detection software to help advertisers reduce ad waste.
+
+For Publishers
+Increased revenue: RTB opens a publisher’s inventory to dozens, even hundreds, of advertisers, which results in better campaign matching and higher CPMs. 
+
+Optimized price floors: In the same way advertisers use real-time analytics to improve their campaigns, publishers can also use real-time analytics to adjust their inventory’s CPM floor price to increase revenue.
+
+Transparency Issues Regarding Commissions and Viewability in the RTB Ecosystem 
+Back in the day when the movement of media between the advertiser and publisher was a purely direct process, both parties knew how much the media was being sold and purchased for. 
+
+While this direct process is still occurring today, the benefits offered by technology platforms (DSPs, SSPs, DMPs, etc.) are leading to an increase in programmatic media buying for both remnant and premium inventory.
+
+However, even though these platforms are providing advertisers and publishers with an easier and more optimized way of buying and selling media, they have essentially become the middlemen and are making the true cost of media harder to identify.
+
+When an advertiser makes a media purchase with its agency, it is often unaware of how many hands its budget passes through, and how many commissions are paid to the intermediaries and technology platforms before it reaches the user. 
+
+It is not uncommon for an ad to pass through five different parties before it reaches the publisher. That’s up to five middlemen all taking different commissions and charging their own fees.
+
+The main platforms in the programmatic media buying landscape
+The image illustrates how many intermediaries there are between an advertiser and a publisher.
+Intermediary Commissions and Fees
+Knowing exactly how much commission each technology platform takes (DSP, Ad Exchange, SSP) is extremely hard to calculate, and even if this information is passed on to the advertiser, it can be more difficult to validate and confirm.
+
+However, a 2020 report by PwC and the Incorporated Society of British Advertisers (ISBA) titled the Programmatic Supply Chain Transparency Study found that, on average, publishers received just 51% of ad spend, with 35% going to the intermediaries, e.g. ad agencies and AdTech companies. The report also found that 15% of that ad spend, known as the unknown delta, couldn’t be accounted for.
+
+Some of the key highlights from the report are:
+
+Demand-side tech fees, such as ad serving, verification tools and data, averaged to account for 10% of advertiser spend.
+SSP fees worked out to be, on average, 14% of publisher revenues, which is equivalent to about 8% of advertiser spend.
+The percentage of ad spend that publishers receive ranged from 49% to 67%.
+A 2014 industry study conducted by PwC and sponsored by the IAB also found that around 50% of an advertiser’s media budget went to fees and commissions.
+
+We consistently heard throughout our conversations with industry executives that programmatic ad tech fees are substantial – generally close to 50% or more. These ad tech fees were often referred to as the “ad tech tax” in our conversations. Ad tech tax in this context refers to the fees imposed on buyers and sellers for leveraging ad tech technology, and/or value adds from ATDs, DSPs, SSPs, ad servers and ad networks. In many instances, these fees get compounded as fees from one supplier get added to the costs of the next supplier in the programmatic value chain.
+
+[1] IAB Programmatic Revenue Report 2014 Results: An industry study conducted by PwC and sponsored by the Interactive Advertising Bureau (IAB). July 2015.
+
+The study went on to state that the percentage varies among companies and may be lower depending on the number of AdTech platforms an advertiser uses to run media campaigns. 
+
+For example, an advertiser using just one DSP to purchase media through an ad exchange would likely pay fewer fees than one who uses an ad agency, which uses an ATD and DSP to purchase media from an ad exchange. 
+
+In the current programmatic system, advertisers are only informed about the price of the media in relation to the quantity (e.g. $10 for 1,000 impressions = CPM), but they have no way of finding out what percentage of that will be taken by the technology platform and what percentage the publisher will actually receive.
+
+In addition to the main platforms and intermediaries, advertisers may also pay for third-party data (e.g. behavioral and demographic verification data) from a data-management platform (DMP) as well as additional services (viewability, brand-safety verification, etc). 
+
+While the cost of the data is usually known to the advertiser, the DSP may add some hidden margins to its price.
+
+Where Does the Industry Go From Here?
+There is no doubt that lack of transparency is an issue that needs immediate attention. One way to start is to educate advertisers on the inner workings of various technology platforms and highlight the value they provide.
+
+Thankfully, many AdTech vendors are becoming more transparent about their fees and commissions.
+
+Private Marketplace (PMP)
+Although RTB helped publishers sell their remnant inventory on the open market, many premium publishers found that they were losing money on their most premium inventory. 
+
+Advertisers also became concerned that they were missing out on premium inventory and their ads weren’t even seen by visitors. 
+
+To overcome these issues, private marketplace (PMP) was born.
+
+Private marketplace is an invite-only variation of the RTB model where publishers offer their most premium inventory to a select number of buyers.
+
+Advertisers participating in PMP deals can bid on the available inventory before the publisher offers it in an open RTB auction.
+
+Private marketplace (PMP) 
+Even though the CPM is higher than in public RTB auctions, advertisers buying inventory on a PMP have first access to a publisher’s premium inventory before it’s sold on public auctions or via other avenues. 
+
+Publishers mark their PMP inventory by passing a Deal ID in the bid request. In order for advertisers to purchase this inventory, they must have a matching Deal ID.
+
+An example of how private marketplace (PMP) deals work in programmatic media buying.
+A Comparison Table of the Above Media-Buying Processes
+Below is a comparison table that illustrates how the three ways of purchasing media stack up against each other.
+
+
+The table above shows the types of media execution for real-time bidding, programmatic direct and private marketplace.
+Now that we’ve covered the main ways media can be bought and sold, we’ll look at two processes that publishers can use to manage and organize the above media-buying methods.
+
+The Publisher’s Waterfall 
+Waterfalling, also known as a daisy chain or waterfall tags, is a process used by a publisher to sell all remnant inventory. This process occurs when a publisher has been unable to sell its premium ad slots that are usually reserved for direct ad sales between the publisher’s internal sales team and advertisers.
+
+Waterfalling gets its name from the waterfall-like process for selling inventory; the demand sources are initiated one at a time, one after another.
+
+The advantage of this daisy chain is that the publisher is able to sell off its inventory; however, as the impressions go further down the waterfall, the CPM price, which is worked out as an average, decreases.
+
+The Publisher’s Dilemma: High CPM or High Fill Rate?
+While ad networks allow publishers to sell their remnant inventory, they still face what’s known as the publisher’s dilemma – should they sell their inventory at a high CPM and risk not filling all of their available ad slots, missing out on revenue opportunities? Or should they fill all of their inventory and receive less CPM for their ad slots, missing out on potentially higher revenue opportunities?
+
+An explanation of how waterfalling works in programmatic advertising.
+In the image above, we can see the publisher first tries to sell its inventory via direct sales, as these generally offer the highest cost-per mille (CPM). 
+
+If it is unable to do so, the publisher will then pass the impression to SSPs and ad exchanges and aim to sell the impression in an open RTB auction. If the ad space is still unsold, it will pass the impression to an ad network.
+
+How Is Waterfalling Implemented?
+The AdOps team sets up an ad network with a tracking tag that will execute if and when an impression is not filled.
+
+This is typically configured in the publisher’s ad server as well as in each ad network’s system that the publisher works with in a field called Fallback Ads, Passbacks, Redirects, Default Ads, or similar.
+
+These passbacks will need to be configured for each ad network used by the publisher. Referring to the image above, the publisher’s AdOps team would configure the premium ad network to “passback” to the remnant ad network.
+
+How Does Waterfalling Work?
+If a publisher is unable to sell its direct buys, its ad server executes the first ad network’s tag.
+
+There are a couple of possible outcomes, so let’s take a look at a few likely scenarios.
+
+Scenario 1
+
+A direct deal with advertiser #1 is able to offer an impression for this ad call, so it sends an ad back to the user’s browser.
+
+Waterfall scenario 1
+Scenario 2
+
+The publisher’s direct deals doesn’t have an impression to offer, so it loads the tag to hold RTB auctions with ad exchange #1 and #2, which also don’t have an impression to offer, so it loads the ad tag for remnant ad networks #1, which is able to offer an impression for this ad request. 
+
+The impression is then sent to the user’s browser and the ad is displayed.
+
+An image explanation how a publisher's waterfall works in programmatic advertising.
+Why didn’t any of the direct deals or RTB sources buy the inventory?
+There are a couple of possible reasons why these two sources didn’t return an impression. These include:
+
+No matching campaigns: It’s possible that the advertiser’s targeting criteria might not have matched the website or user, meaning the demand source (ad network or DSP) wouldn’t have had a suitable ad to display.
+High floor price: The publisher’s high floor price might have been higher than what the advertiser was willing to pay. 
+Impression capping: Advertisers set up impression capping to limit the number of times an ad is shown to a given user, so it’s likely that the ad may have reached its maximum number of impressions for that given timeframe. 
+Timed out: Another reason is that the advertiser’s ad server, ad network or DSP may have taken too long to respond to the ad request, meaning it was timed out. If this happens, it wouldn’t send back the passback ad tag, meaning the waterfall would end and no ads would be displayed. This situation is one of the main downsides of using the waterfall option.
+Scenario 3
+
+If all the demand sources don’t offer an impression, the publisher activates its fallback option. In most cases, this is an ad promoting its own products or services.
+
+An example of a publisher's waterfall with a fallback option.
+How Does the Ad Server Know Which Ad Network to Load First?
+Publishers typically set up a ranking system whereby the demand sources are placed from highest average historical yield to the lowest. 
+
+The average historical yield is simply the average amount of revenue the demand source has made for the publisher in the past.
+
+The drawback to this system is that some demand sources may be willing to pay a higher price for a given impression than their average historical yield. 
+
+For example, a remnant ad network third in the queue may have an average historical yield of $2 CPM, but may be willing to pay $5 CPM for a given impression if the user meets its targeting criteria. 
+
+This inability of waterfalling to accurately provide a real-time cost of available impressions was one of the reasons behind the rise of header bidding.
+
+Header Bidding
+Header bidding (aka pre-bidding, advance bidding, and holistic yield management) is a media-buying process that enables publishers to simultaneously collect bids from a number of demand sources (e.g. DSPs) before their ad server loads other tags, such as direct deals.
+
+Header bidding overview
+An overview of how header bidding works.
+The bids are collected via a piece of JavaScript code located in a website’s header section, hence the name header bidding.
+
+Header bidding came about because of the inefficiencies of waterfalling and also because of Google’s preferences towards its own ad products. Because many publishers use Google’s ad server, formerly known as DoubleClick for Publishers (DFP), Google favored bids from Google Ad Exchange (AdX).
+
+This resulted in demand from other AdTech platforms missing out on the chance to purchase the ad space, even if they wanted to pay a higher amount for it. 
+
+How Does Header Bidding Work?
+To implement header bidding, publishers need to add a piece of JavaScript code (aka snippet or tag) in between the <head></head> tags on their website.
+
+This JS code often comes in the form of a wrapper (aka container), which is typically provided by SSPs and ad exchanges. 
+
+Below is a basic header-bidding example from the open-source header-bidding wrapper, Prebid.js:
+
+
+<html>
+ 
+	<head>
+    	<link rel="icon" type="image/png" href="/favicon.png">
+    	<script async src="//www.googletagservices.com/tag/js/gpt.js"></script>
+    	<script async src="//acdn.adnxs.com/prebid/not-for-prod/1/prebid.js"></script>
+    	<script>
+        	var div_1_sizes = [
+            	[300, 250],
+            	[300, 600]
+        	];
+        	var div_2_sizes = [
+            	[728, 90],
+            	[970, 250]
+        	];
+        	var PREBID_TIMEOUT = 1000;
+        	var FAILSAFE_TIMEOUT = 3000;
+ 
+        	var adUnits = [
+            	{
+                	code: '/19968336/header-bid-tag-0',
+                	mediaTypes: {
+                    	banner: {
+                        	sizes: div_1_sizes
+                    	}
+                	},
+                	bids: [{
+                    	bidder: 'appnexus',
+                    	params: {
+                        	placementId: 13144370
+                    	}
+                	}]
+            	},
+            	{
+                	code: '/19968336/header-bid-tag-1',
+                	mediaTypes: {
+                    	banner: {
+                        	sizes: div_2_sizes
+                    	}
+                	},
+                	bids: [{
+                    	bidder: 'appnexus',
+                    	params: {
+                        	placementId: 13144370
+                    	}
+                	}]
+            	}
+        	];
+ 
+        	// ======== DO NOT EDIT BELOW THIS LINE =========== //
+        	var googletag = googletag || {};
+        	googletag.cmd = googletag.cmd || [];
+        	googletag.cmd.push(function() {
+            	googletag.pubads().disableInitialLoad();
+        	});
+ 
+        	var pbjs = pbjs || {};
+        	pbjs.que = pbjs.que || [];
+ 
+        	pbjs.que.push(function() {
+            	pbjs.addAdUnits(adUnits);
+            	pbjs.requestBids({
+                	bidsBackHandler: initAdserver,
+                	timeout: PREBID_TIMEOUT
+            	});
+        	});
+ 
+        	function initAdserver() {
+            	if (pbjs.initAdserverSet) return;
+            	pbjs.initAdserverSet = true;
+            	googletag.cmd.push(function() {
+                	pbjs.que.push(function() {
+                    	pbjs.setTargetingForGPTAsync();
+                    	googletag.pubads().refresh();
+                	});
+            	});
+        	}
+        	// in case PBJS doesn't load
+        	setTimeout(function() {
+            	initAdserver();
+        	}, FAILSAFE_TIMEOUT);
+ 
+        	googletag.cmd.push(function() {
+            	googletag.defineSlot('/19968336/header-bid-tag-0', div_1_sizes, 'div-1').addService(googletag.pubads());
+            	googletag.pubads().enableSingleRequest();
+            	googletag.enableServices();
+        	});
+        	googletag.cmd.push(function() {
+            	googletag.defineSlot('/19968336/header-bid-tag-1', div_2_sizes, 'div-2').addService(googletag.pubads());
+            	googletag.pubads().enableSingleRequest();
+            	googletag.enableServices();
+        	});
+ 
+    	</script>
+ 
+	</head>
+ 
+	<body>
+    	<h2>Basic Prebid.js Example</h2>
+    	<h5>Div-1</h5>
+    	<div id='div-1'>
+        	<script type='text/javascript'>
+            	googletag.cmd.push(function() {
+                	googletag.display('div-1');
+            	});
+ 
+        	</script>
+    	</div>
+ 
+    	<br>
+ 
+    	<h5>Div-2</h5>
+    	<div id='div-2'>
+        	<script type='text/javascript'>
+            	googletag.cmd.push(function() {
+                	googletag.display('div-2');
+            	});
+ 
+        	</script>
+    	</div>
+ 
+	</body>
+ 
+</html>
+Here’s an overview of how the header-bidding process works:
+
+An example of how header bidding works.
+Here’s what is happening in the image above:
+
+A user opens their web browser and types in the publisher’s URL (e.g. publisher.com).
+The browser starts loading the page.
+The header-bidding JavaScript code or wrapper located in the <head> tag executes and sends a request to the various AdTech platforms (SSPs and ad exchanges).
+The SSPs and ad exchanges send bid requests to multiple DSPs. 
+The DSPs analyze the bids and return a bid response if the impression matches their campaigns.
+The highest bidder wins.
+The bid passes on to the publisher’s ad server and competes with other campaigns, such as direct deals. 
+If the DSP’s bid is higher than the publisher’s other campaigns, it is displayed to the user.
+Just like other media-buying processes, latency is a big issue with header bidding.
+
+If a DSP, SSP or ad exchange doesn’t respond to the ad or bid request in time, they will be timed out and won’t be able to submit a bid. 
+
+The timeout rates vary and are different on desktops, laptops, and mobile. On desktop and laptop computers, the timeout range is 400–800 milliseconds, and with mobile, it’s 800–1,200 milliseconds.
+
+Prebid.js – Making header bidding easier for publishers
+
+Prebid.js is a 100% free and open-source JavaScript framework designed to make it easier for publishers to run pre-bid auctions and get access to more demand with minimal integration hassle. Available at prebid.org.
+
+How to Implement Header Bidding: Client Side vs. Server Side
+When it comes to implementing header bidding, there are two options: client-side header bidding (CSHB) and server-side header bidding (SSHB).
+
+Client-side header bidding collects bids directly from the web browser (i.e. the client), whereas server-side header bidding collects bids from a server. 
+
+With both CSHB and SSHB, the publisher still needs to add a wrapper or JS snippet to its website.
+
+Here’s a side-by-side comparison of how the client-side and server-side header-bidding implementations work:
+
+The difference between client-side header bidding (CCHB) and server-side header bidding (SSHB)
+Below are the main advantages and disadvantages of client-side and server-side header bidding.
+
+Advantages of client-side header bidding:
+
+Cookie-matching rates are higher between AdTech platforms because the process happens in the browser.
+There’s more control over header-bidding wrappers, meaning publishers can easily add and remove them.
+There’s greater transparency into the demand sources and clearing prices.
+Disadvantages of client-side header bidding:
+
+Because the header-bidding code is located on the page, it takes longer for the page to load, which provides a poor user experience.
+There may be some browser-compatibility issues, meaning the header-bidding code may not work properly on older browsers. 
+Browsers can only make so many requests at one time, meaning the number of requests sent from a wrapper or tag will be limited to about a dozen or so.
+Advantages of server-side header bidding:
+
+Page-load latency is significantly reduced because one call is made to a server, where all the bidding takes place on a server, instead of multiple calls being made from the browser.
+Server-side header bidding allows publishers to receive more bids from demand sources, as it doesn’t have the same technical limitations as client-side.
+Disadvantages of server-side header bidding:
+
+Because the process happens on a server, there’s less control and transparency into things like clearing prices, demand sources and fees.
+Matching cookies is harder to do with server-side header bidding, which often leads to a drop in revenue for publishers because there’s no addressability (i.e. advertisers don’t know or can’t identify the user on the website).
+Waterfall vs. Header Bidding: Benefits and Drawbacks
+Below we summarize the main benefits and drawbacks of both the waterfall method and header bidding for publishers that want to increase fill rates and maximize yield.
+
+Benefits of the Waterfall
+Sells off remnant inventory that would otherwise be wasted.
+Compared to the header-bidding process, waterfalling is easier to implement and requires less technical knowledge. In order to implement waterfalling, all the publisher needs to do is set up a tag on an ad network and in its ad server.
+Benefits of Header Bidding
+Publishers can receive bids from buyers that may be more interested in their inventory (and willing to pay a higher price) than the buyers connected to the publisher’s ad server.
+The chances of filling all types of available inventory, including both premium and remnant (unsold) inventory is higher because there are more buyers.
+Publishers are able to get greater insights into inventory value – e.g. if a publisher sets a floor price (the lowest price it is willing to sell inventory for) of $1.50 CPM, but after utilizing header bidding finds that its inventory is being sold for an average of $2.00 CPM, then it will get a clearer picture of how much its inventory is actually worth on the market.
+Drawbacks of the Waterfall
+It can produce low yield, as the publisher’s ad server chooses the demand sources based on the highest average yield, not the current market price of inventory, meaning the price given is the average CPM, not the true CPM.
+It often causes latency issues, as loading each tier takes time, and the more time passes, the less likely it is that the user will see the ad.
+Each demand source may fail to load the fallback or become timed out, resulting in lost revenue.
+Some demand sources require configuring the passbacks in their system, making it difficult for AdOps to reconfigure and manage.
+Drawbacks of Header Bidding
+While header bidding may reduce the number of passbacks common in waterfall auctions, and thus improve page-load time, it has a few latency issues of its own (mainly caused by adding more scripts to a page). The latency issue is much less relevant with server-side heading bidding.
+In order to work efficiently, client-side header bidding has to be backward-compatible with browsers and, in general, compatible with different browsers.
+If a publisher uses multiple header partners, it runs the risk of putting the same impression or inventory up for sale, duplicating its bid-processing efforts. This drawback relates to both client-side and server-side header bidding.
+Adding additional logic slows down the performance of the browsers and the website itself, which is not a big deal on modern hardware, but can be a problem on slightly older hardware and older smartphones.
+Auction Dynamics: First- and Second-Price Auctions and Hard and Soft Floor Prices
+Auctions are an important part of many different types of transactions. They are used to buy and sell houses, works of art and products on ecommerce sites like eBay. They are also a key part of buying and selling online media via RTB transactions. 
+
+Since the beginning of real-time bidding towards the end of the 2000s, the main model used to buy and sell online media was the second-price auction.
+
+Second-Price Auctions (2PA)
+During second-price auctions (also known as Vickrey auctions), prospective buyers (advertisers) put forward their bids. 
+
+The winner is the highest bidder, but instead of paying the amount they bid, they pay the price put forward by the second-highest bidder plus $0.01.
+
+An example of how second-price auctions work in programmatic media buying.
+The price the buyer pays is known as the clearing price. The difference between the amount the advertiser bid and the clearing price is known as the reduction, or consumer surplus, which, in the example above, is $0.29.
+
+First-Price Auctions (1PA) 
+With first-price auctions, the highest bidder wins and pays the exact amount they bid. For example, if an advertiser bids $2.50 CPM and they win the auction, the clearing price will be $2.50 CPM. 
+
+The online advertising industry has used second-price auctions ever since the RTB model was introduced, but over the past couple of years (since 2017/2018), many ad exchanges and SSPs have started moving to first-price auctions.
+
+The main reasons for this are to counter the impact of header bidding and make auctions more transparent and fair for advertisers and publishers.
+
+Despite the advantages of header bidding, many advertisers were losing out to direct deals, even though their initial bid was higher. This meant that publishers were missing out on higher CPMs.
+
+How second price auctions work in header bidding 
+Step-by-step explanation:
+
+The publisher’s web page loads and a header-bidding request is sent to an SSP/ad exchange.
+The SSP/ad exchange sends a bid request to DSPs. Each DSP returns a bid response with its respective bid. Because the SSP/ad exchange conducted a second-price auction, the winning DSP pays $0.01 more than the second-highest bid (DSP #2), which works out to be $4.01.
+The SSP/ad exchange passes DSP #1’s winning bid to the publisher’s ad server. This bid will now compete with a publisher’s direct deals. 
+In this case, the direct deal is higher than the bid from DSP #1 ($4.01), so the direct deal wins.
+The ad from the direct deal is sent to the web page and displayed to the visitor.
+As the diagram above illustrates, the advertiser (represented by DSP #1) missed out on showing its ad to the visitor even though it was willing to pay more than the direct deal. This is a common pitfall of the second-price auction model with header bidding.
+
+Let’s look at how this same situation is improved with first-price auctions.
+
+How first-price auctions work in header bidding 
+Now, because a first-price auction was held between the SSP/ad exchange and the two DSPs, the winning bid from the header-bidding auction is $6.00 CPM, which is exactly what DSP #1 bid. Because it is higher than the direct deal, its ad is shown to the visitor.
+
+Bid Shading
+While the move from second-price auctions to first-price auctions allows advertisers to win more impressions, they are now having to pay a higher price. 
+
+If advertisers were bidding $5.00 CPM but winning most impressions for $3.01 on a second-price auction, they would now be paying $5.00 CPM on a first-price auction. As you can imagine, this has a big impact on media budgets and spend.
+
+What’s more, second-price auctions give advertisers a pretty good idea of how much the impressions are worth, allowing them to change their bids accordingly. With first-price auctions, there’s really no easy way for advertisers to know this. 
+
+To help advertisers optimize their bids during first-price auctions and get them closer to the real cost of the bid, AdTech companies introduced a feature known as bid shading.
+
+Bid shading is essentially an algorithm that aims to tell advertisers how much they should bid on first-price auctions. It does this by analyzing historical bid data, such as how much the impression was selling for, the ad position and at what price bids are lost.
+
+At the moment, bid shading is offered by supply-side platforms and some demand-side platforms. The reason for this is because most DSPs haven’t updated their tech to handle first-price auctions.
+
+Although bid shading helps advertisers save money, it’s not a very transparent practice. 
+
+It’s quite easy for an AdTech company to tell an advertiser that they should be bidding $3.00 CPM when the actual impression would sell for $2.00 CPM and then pocket the difference. The only way an advertiser would know the true cost of an impression would be to obtain data from the SSP, which is not something that happens in programmatic advertising. 
+
+While most AdTech vendors offer bid shading as a free feature, there’s talk that many vendors will start charging for this, which has angered advertisers, as they feel that optimizing their bids should be something their tech partners offer as standard.
+
+Bid shading also leaves publishers with less ad revenue. Instead of an advertiser bidding $5.00 CPM and winning, if they use bid shading and win the bid at $3.00 CPM, that’s money the publisher has missed out on.
+
+Floor Prices
+The contract between an AdTech vendor and publisher will typically specify a minimum CPM price that the ad network is to offer its advertisers. 
+
+This guaranteed CPM price is also called a floor price and is designed to avoid the situation where the AdTech vendor may discount the publisher’s inventory, which would devalue it in the eyes of advertisers. 
+
+There are two types of floor prices: hard and soft.
+
+Hard price floor
+A hard price floor represents the minimum price the publisher will accept for the impressions. 
+
+Any bids below this minimum price are simply ignored, meaning publishers will not accept any bids below the hard price floor.
+
+Soft price floor
+Because bidders may not necessarily know what the hard floor is, many publishers set a soft floor price to “catch” any bids that fall slightly below the publisher’s asking price and that otherwise would get rejected.
+
+An example of the difference between soft floor prices and hard floor prices.
+As we can see in the image above, the hard price floor automatically ignores all bids under $4.25.
+ 
+Any bids between the hard and soft floor take part in a first-price auction. If there are bids above the soft price floor, they will take part in a second-price auction.
+
+Chapter Summary
+There are many different ways advertisers can buy online media from publishers, such as:
+Direct deals: Deals made directly between a publisher and advertisers.
+Programmatic direct: An advertiser and publisher agree on the inventory and the CPM, and the rest of the process is handled programmatically (i.e. via the use of AdTech platforms).
+Real-time bidding (RTB): Real-time auctions where advertisers bid on individual impressions offered by publishers via DSPs, ad exchanges and SSPs.
+Private marketplace (PMP): An invite-only version of RTB whereby publisher’s allow certain advertisers to bid on their inventory before they offer it in an open RTB auction.
+Waterfalling is a process used by a publisher to sell all remnant inventory whereby the publisher’s ad server calls the demand sources one after another.
+Header bidding is a process that allows publishers to collect bids from multiple demand sources before their ad server is called, which increases their chances of securing higher CPMs.
+There are two main auction types in RTB:
+Second-price auctions, where the winning bid pays the second-highest price plus $0.01.
+First-price auctions, where the winning bid pays the amount they bid.
+Floor prices allow publishers to set a minimum CPM that they are willing to accept for their inventory.  

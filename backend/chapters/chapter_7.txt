@@ -1,0 +1,328 @@
+07.
+
+Ad Targeting and Budget Control
+
+In the context of online advertising, targeting relates to displaying ads to users who match a series of criteria. 
+
+For example, let’s imagine an advertiser who sells gardening products has identified that its target audience consists of people between the ages of 30 and 50 and who live in rural areas of the US. The advertiser would then want to display its ads to people who match those criteria.
+
+When it comes to direct deals between an advertiser and publisher, targeting was traditionally carried out by ad servers, whereby an advertiser would define the targeting criteria in the insertion order – e.g. state which pages and sections of a publisher’s site to show its ads on.
+
+The publisher’s AdOps team would then configure the advertiser’s targeting criteria in its ad server (first-party ad server). 
+
+Even though targeting is still carried out via ad servers, many other AdTech platforms (e.g. demand-side platforms and supply-side platforms) now offer targeting capabilities.
+
+In this chapter, we’ll talk about targeting in the context of ad servers.
+
+By setting targeting criteria for a campaign, an advertiser can choose which web traffic is relevant for them.
+
+Below are some examples of targeting methods in online advertising.
+
+Contextual Targeting
+Contextual targeting allows advertisers to display relevant ads based on the website’s content rather than data about the visitor. This method of targeting is widely used in magazines and newspapers.
+
+Example of contextual targeting
+Contextual ads, like the one on the right, are often displayed without excessive need for personal data.
+Many advertisers and publishers use contextual targeting, either in isolation or in combination with other targeting methods, because it’s very effective for specific kinds of content.
+
+How Does Contextual Targeting Work?
+How contextual targeting works
+A step-by-step explanation of how contextual targeting works:
+
+A web crawler scans URLs and categorizes the content and ad placements.
+When a visitor accesses a website, information associated with the URL is passed to the ad server via the ad request.
+This ad request and the contextual information is passed on to other AdTech platforms, such as ad exchanges and supply-side platforms.
+The ad exchanges and supply-side platforms relay this information to demand-side platforms, which then bid on the impression.
+The winning DSP then sends the ad back to the publisher and displays the ad to the visitor.
+Benefits of Contextual Targeting
+Although contextual targeting may seem rather simple compared to other targeting methods, it provides advertisers and publishers with a number of benefits:
+
+Most contextual ads don’t rely on personal data, helping advertisers and publishers reduce their exposure to privacy and data-protection regulations, like the GDPR. 
+Contextual ads can offer safer brand protection. 
+They have shown they can increase purchase intent by 63%.
+They are found to be less unnerving than behaviorally targeted ads, while still being based on the interests of users – e.g. advertisers can show ads for smartphone plans to people reading articles about smartphones.
+Keywords
+Keywords are valuable targeting variables for advertisers as they provide an accurate picture of the type of content the website visitor is consuming. 
+
+There are a couple of ways an ad server can identify which keywords are on a given web page, such as via the tags used on the page by the editor that highlight the key topics covered in the content and via extracting the keywords found on the page, usually done either with JavaScript or server-side web crawling. 
+
+These keywords are then typically passed to the ad tag, so that the ad server receives them in the ad request and uses them in the decisioning process (when deciding which ad to serve).
+
+So, for example, if an advertiser wants to display ads promoting a new smartphone plan, it would target visitors who read articles containing the keywords smartphone, mobile phone, etc.
+
+Ad Slot and Ad Position
+Advertisers may also want to display ads that are of a certain size or located in a specific area of a webpage – for example, ad slots that are 728×90 px and located at the top of the page. 
+
+Because this type of targeting is quite broad, it is usually combined with other targeting methods. 
+
+Publisher’s URL
+Targeting users based on the publisher’s URL is very similar to the way advertisers target consumers in print media.
+
+By displaying ads on specific websites, advertisers are able to reach a broad range of online consumers based on their interests, rather than based on their demographic information like age and gender.
+
+There are two levels at which advertisers can target website visitors:
+
+Domain
+Advertisers can target audiences based on the publisher’s domain name. However, this only applies in a direct advertiser-publisher relationship where the publisher owns many different websites. 
+
+This is often connected with run-on-site (ROS) targeting in ad networks, whereby advertisers show their ads on specific domains.
+
+Section and URLs 
+The advertiser may choose to target certain sections of the site. 
+
+For example, if a site covers a lot of topics (like a news site), the advertiser may want to only target the technology section or entertainment section.
+
+The problem is that usually these aren’t clearly identified by just the URL and the publisher may need to pass the section name in the ad tag to enable the ad server to use this variable in its targeting.
+
+This method of targeting is often connected with run-on-network (RON) targeting in ad networks, whereby advertisers show their ads on a specific group of websites.
+
+IP and Geolocation
+Geolocation targeting involves displaying ads to users based on their current location. 
+
+For example, if an online consumer was reading news articles on a laptop in Chicago, they could very well see ads promoting shops, restaurants and services in the Chicago area.
+
+But how do advertisers know where consumers are located? 
+
+An ad server receives a request from the consumer’s browser, which carries its IP address. The IP address is mapped to the specific location of the consumer using an external database, such as MaxMind or Neustar, which maps the IP address to the country, region and city.
+
+An example of a query from MaxMind.
+The image above is a query from MaxMind.
+Native mobile apps can also pass the exact longitude and latitude from a smartphone’s GPS to the ad server. 
+
+In such cases, the ad server is capable of targeting users within a radius of a certain point (e.g. within five miles of a given point of sale). This makes geolocation targeting much more accurate and precise than the IP address method. 
+
+However, even GPS information can sometimes be inaccurate and even fraudulent.
+
+To improve the accuracy of location data, some data companies collect, aggregate, and combine different data points and sensors.
+
+Imagine this situation: A consumer is eating a sandwich on a bench in downtown New York and playing a game on their smartphone. Starbucks (i.e. the advertiser) could display an ad to that consumer encouraging them to visit the Starbucks cafe located five minutes down the road from the consumer’s location.
+
+Browser Type, Operating System and Device Type
+Every ad request to the ad server carries a user-agent HTTP header, e.g.:
+
+
+User-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1
+In the example above, 14D27 identifies as an iPhone 7 Plus, and we see it’s running iOS 10.2.1.
+
+From this information, we can parse the operating system, browser type and version, and can detect the device type, brand and model (in the case of mobile device, as shown above with the iPhone).
+
+Targeting online consumers based on their hardware or software enables advertisers to reach a specific audience with a highly relevant message. 
+
+For example, a mobile-gaming company could display ads promoting its newly developed Android game to consumers using Android-powered smartphones and tablets. 
+
+IAB Content Taxonomy
+The IAB provides a standard for the categorization of websites.
+
+Advertisers are able to purchase digital ad space based on the categories supplied in the ad request, and can also choose not to show their ads on websites based on the categories. 
+
+Below is a shortened list of the taxonomy: 
+
+Unique ID	Tier 1	Tier 2	Tier 3
+1	Automotive		
+2	Automotive	Auto Body Style	
+3	Automotive	Auto Body Style	Commercial Trucks
+…	…	…	…
+52	Business and Finance		
+53	Business and Finance	Business	
+54	Business and Finance	Business	Business Accounting & Finance
+…	…		
+223	Healthy Living		
+224	Healthy Living	Children’s Health	
+225	Healthy Living	Fitness and Exercise	Participant Sports
+…	…	…	…
+239	Hobbies & Interests		
+255	Hobbies & Interests	Arts and Crafts	Photography
+…	…		
+656	Travel	Travel Locations	Africa Travel
+657	Travel	Travel Locations	Asia Travel
+658	Travel	Travel Locations	Australia and Oceania Travel
+…	…		
+The IAB Content Taxonomy contains over 30 Tier 1 categories and over 1,100 individual entries (rows). 
+
+Below is part of the IAB Content Taxonomy from the OpenRTB (version 2.4) specification, containing 390+ content categories:
+
+IAB content category examples
+Examples of some IAB content categories.
+Source: Github
+Day of Week and Time of Day
+Displaying ads to consumers based on the day of the week and even time of day can allow advertisers to reach their desired audience at the right time, and also avoid wasting their ad budget. 
+
+For example, an advertiser that works for a large pizza restaurant could advertise its Friday night specials on Friday afternoons between 3–8pm.
+
+Similarly, if a brand notices that ad engagement is higher at certain times of the day, then it could choose to display ads to its audiences at those times. Not only would the brand increase the chances of reaching its target audience, but would also increase ad engagement, click-through rates and conversions. 
+
+Behavioral Targeting
+Behavioral targeting, also known as online behavioral advertising (OBA), allows advertisers and publishers to display relevant ads and marketing messages to users based on their web-browsing behavior. 
+
+The types of data collected for behavioral targeting include:
+
+Pages viewed
+Previous search terms
+Amount of time spent on a website
+Ads and buttons clicked
+Content viewed and downloaded
+Purchases
+Date of the last website visit
+Other information about their interactions with various websites
+How online behavioral targeting works
+Online behavioral targeting uses information about the user to determine which ads to display.
+The behavioral targeting process consists of three main steps:
+
+1. Data Collection
+Advertisers, publishers, and DMPs collect data about the actions users carry out across different websites. This data is often referred to as event data and includes page views, products views, products purchased, and other interactions on a website or mobile app. This data is then tied together via identifiers stored inside third-party and first-party cookies in web browsers, or mobile IDs in mobile apps. 
+
+User profiles are then created to store a given user’s event data in one place and assign all future event data to that user profile. An identifier, such as an ID in a third-party cookie or a mobile ID, would be used to link a user with their actions across different websites and assign the event data to the right user profile.
+
+2. Audience Creation 
+Advertisers and publishers then create audiences that are made up of individual user profiles.
+
+For example, an advertiser could create an audience that includes people who have viewed a given product more than three times in a month, signed up for a newsletter, and have visited their website at least 15 times in the past 60 days.
+
+3. Application of Data
+The advertiser then uses those audiences for ad targeting in its online media campaigns, resulting in the ads being more relevant to the users and increasing the chances of them converting (e.g. purchasing a product).
+
+ The three main steps of the behavioral targeting process.
+The three main steps of the behavioral targeting process.
+Benefits of Behavioral Targeting
+The amount of data marketers have about users allows them to create very detailed profiles and display ads relevant to each audience accordingly.
+
+The premise behind behavioral targeting is that it benefits the visitor as much as it benefits the website displaying the ads – i.e users are shown ads that they are actually interested in, which improves the user experience of the website. 
+
+However, online users have become aware of how online advertising companies collect and use their data, which has resulted in some users becoming concerned about this type of targeting and resulted in the rise of ad-blocking software.
+
+Challenges of Behavioral Targeting and the Impact of Privacy Laws and Privacy Settings
+With privacy laws like the General Data-Protection Regulation (GDPR) in effect, this targeting method became challenged by stricter rules concerning storing cookies in a user’s browser.
+
+The EU law forced marketers to reduce their dependence on behavioral data and look for new targeting methods that don’t rely heavily on collecting and using personal data.
+
+In addition to privacy laws, there are also privacy settings in popular web browsers, such as Safari’s Intelligent Tracking Prevention (ITP) and Firefox’s Enhanced Tracking Protection (ETP), that block third-party cookies by default and put restrictions on other types of cookies. Google Chrome, which is the most popular web browser globally, will also turn off support for third-party cookies in 2024. 
+ 
+In addition to the privacy changes in web browsers, Apple has made some changes to how its identifier for advertisers (IDFA) can be accessed by app developers and AdTech companies to increase user privacy. 
+
+These privacy changes make running behavioral advertising campaigns extremely limited, if not impossible.
+
+In a privacy-first world, some advertising platforms that previously prided themselves on their behavioral-targeting capabilities are now turning to contextual advertising, where the power lies in minimized reliance on personal data. 
+ 
+However, due to the huge time, cost and resource investments AdTech and data-collection companies have made in collecting and using behavioral data, this shift is a slow one.  
+
+Please refer to chapter 14. User Privacy in Digital Advertising for more information about these privacy topics. 
+
+Retargeting
+Retargeting involves showing ads to online visitors who have interacted with the brand in the past. 
+
+For example, if an online visitor views a pair of shoes, then they’ll likely see the same pair of shoes (or even different ones) advertised on different websites. 
+
+The process works by placing a 1×1 transparent image (a pixel) on a website. Then, when the page loads, the pixel sends a request to an AdTech platform (e.g. a demand-side platform) to retrieve the 1×1 transparent image. 
+
+As the image is returned to the web browser, the DSP creates a cookie, if one wasn’t created previously, and saves it on the visitor’s device.
+
+Then, when the visitor accesses a different website, the DSP is able to identify that user and show them the retargeted ad – i.e. the shoes they viewed on the previous website. 
+
+Here’s a visual representation of how retargeting works:
+
+How retargeting works
+Here’s an overview of what’s happening in the image above:
+
+An online shopper visits shoeholics.com and views a pair of shoes.
+The retargeting service’s code located in between the < footer > tags sends a request for a 1×1 pixel.
+The retargeting service sends back the 1×1 pixel and saves a cookie to the shopper under their domain (ads.retargetser.com), storing information about the shopper and their behavior, such as the product they viewed.
+The shopper leaves shoeholics.com and visits a different website — news.com — and sees an ad for the exact same pair of shoes that they were looking at previously.
+The DSP is able to identify the same visitors across different websites by syncing cookies with other AdTech platforms – for example, supply-side platforms (SSPs) and ad exchanges.
+
+Similarly to behavioral targeting, many online visitors have come to dislike retargeted ads, as they appear to “follow” visitors around the internet.
+
+Please refer to the Data-Management Platform (DMP) chapter for more information about cookie syncing.
+
+Demographic
+Demographic targeting is one of the most powerful forms of targeting and can be used in combination with other methods to really refine the targeting criteria. At the same time, it’s very tricky because most publishers don’t ask nor collect this type of information from their visitors, except for companies like Facebook and Google.
+
+Examples of demographic information include, but are not limited to:
+
+Age
+Gender
+Annual income
+Marital status
+Parental status
+Occupation
+So, for example, if an advertiser wanted to display ads promoting baby products to female users, between 20 and 40 years of age, who have one child or more, they could use demographic targeting and other targeting methods to display ads to the right visitors.
+
+With campaigns run on independent AdTech platforms (i.e. not via Google, Facebook, LinkedIn, etc.), advertisers can use demographic targeting by using audience segments in their DMP or via the data contained in the User object in OpenRTB bid requests. 
+
+When running campaigns using demographic data on Google and Facebook and other platforms that collect this type of data directly from users, advertisers simply need to set up the targeting criteria inside those platforms.
+
+An example of demographic targeting when advertising on Facebook.
+An example of how to use demographic targeting when advertising on Facebook.
+Please refer to chapter 11. Data-Management Platform (DMP) chapter for more information about using data for ad targeting.
+
+Controlling a Campaign’s Budget
+When running an ad campaign, advertisers not only focus on making changes to improve its effectiveness by adjusting the message, placement, targeting, etc., but also aim to reduce ad waste by optimizing and improving the efficiency of their campaign’s budgets. 
+
+What is ad waste?
+
+Ad waste is inventory that the advertiser paid for but didn’t reach the target audience – e.g. was shown to the wrong audience or a bot.
+
+There are a number of factors that can cause an ad to be deemed wasted, including viewability, ad fraud, incorrect frequency. We cover these areas throughout the book.
+
+Below are just a few areas advertisers look at when controlling and managing their campaign budgets, all of which can be implemented in an ad server or DSP:
+
+Budget Capping
+Adding a budget cap to an ad campaign sets a limit on how much money will be spent. 
+
+For example, you could set a daily budget cap of $150, meaning that once the campaign has spent that amount of money, no more ads will be shown that day. 
+
+Limiting a campaign’s budget involves putting a total and daily cap on the amount of money a campaign spends. In this case, once the daily budget has been spent, the campaign will stop for that day. 
+
+Some platforms will add a certain percentage (e.g. 20%) on top of the daily budget to help advertisers get the most out of their campaign.
+
+An example of budget capping
+The daily cap can be larger to make up for the under-delivery of ads on certain days, but it may cause the campaign to stop prematurely. 
+
+Budget Distribution (aka Pacing)
+Pacing refers to how quickly or slowly the budget of the campaign is spent, which impacts how many impressions are served to online consumers over any given period during the campaign’s lifetime. 
+
+For example, you may want to get your ads in front of as many consumers as quickly as you can, so you would choose to deliver the maximum number of impressions as soon as possible, known as ASAP pacing.
+
+Alternatively, you may choose to distribute your ads evenly and allow them to run for the duration of the campaign’s proposed dates, known as uniform pacing. 
+
+Examples of ASAP and uniform pacing:
+
+Examples of ASAP pacing and uniform pacing
+In the real world, pacing also has to account for the fluctuation of ad traffic throughout the day and the availability of the ad impressions matching the campaign’s targeting criteria. 
+
+Ad platforms can adjust the speed in which they spend the campaign budget based on performance, availability of traffic, and price of the inventory/audience:
+
+Example of performance, traffic fluctuation and price of inventory and audience budget control
+Frequency Capping
+Frequency capping involves limiting the number of times the same ad is shown to a given visitor. For example: three impressions per visitor per 24 hours.
+
+Frequency capping is important because it:
+
+Limits budget waste.
+Helps to improve a campaign’s overall reach.
+Prevents so-called “overexposure” (a user’s frustration over seeing the ad multiple times).
+
+An example of implementing frequency capping in Google Ads.
+Let’s see a frequency-capping example:
+
+Three impressions per visitor per 24 hours
+
+
+Each time frequency capping is evaluated, the number of impressions within the period of time is counted.For a 24-hour cap of three impressions, the impressions could fire at 7:00, 19:00, 1:00 the next day and 10:00 the next day. The user will never see the same ad more than three times within a 24-hour period.
+
+How Is Frequency Capping Implemented?
+First, the ad server registers and stores the number of times an ad (impression) from a particular campaign is displayed to a consumer based on their identifiers (e.g. cookies, device IDs, device fingerprints, etc.).Then, it stores this information server-side (i.e. in the ad server) along with the user’s identifier. 
+
+This information is often referred to as user profiles on AdTech platforms. 
+
+Every user profile contains the information associated with the given cookie ID or device ID, such as the ads that the user was exposed to. 
+
+They are typically stored in in-memory or other fast-access databases so that the information can be quickly fetched during the decisioning process of the ad server.
+
+Why not store this information client-side (i.e. in a third-party cookie)? Here are a couple of reasons:
+
+The cookie size would dramatically increase. Instead of storing a single ID, we would have to store each ad ID with the corresponding impressions and their time.
+It’s not portable to other visitor-identification technologies, such as device IDs (AdID / IDFA).
+Chapter Summary
+There are many different targeting methods that advertisers can use.
+The most popular ones are contextual, behavioral, and demographic.
+Advertisers can control their advertising budgets by setting daily and campaign caps, as well as using pacing and frequency capping.

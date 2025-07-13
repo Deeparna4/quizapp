@@ -1,0 +1,109 @@
+01.
+
+Introduction
+
+Foreword
+If you were to peel back the curtains on the ads you see on websites and mobile apps, you would be amazed at what’s happening behind the scenes. The online advertising ecosystem consists of companies, technology systems, and complex technical processes all working together to serve ads to online users across the Internet.
+
+Online advertising has brought with it a number of positives. For one, it’s provided content creators with a source of revenue so they can distribute their content for free to online users. It’s also allowed new and existing media and technology businesses to grow and thrive.
+
+However, while the online advertising industry has experienced a number of ups, there have also been many downs. Some key examples include being hit hard by the dot-com bubble in the late 1990s/early 2000s, and more recently, the introduction of privacy laws (e.g. the GDPR) and privacy settings in browsers (e.g. Safari’s Intelligent Track Prevention) that have negatively impacted advertisers, AdTech companies, and publishers.
+
+About the Authors
+The AdTech Book has been contributed to and written by various team members of Clearcode, with the main contributors being Maciej Zawadziński, Clearcode’s co-founder and CEO of Piwik PRO, and Michael Sweeney, Head of Marketing at Clearcode.
+
+This book is the result of Clearcode’s many years of experience in designing, developing, launching, and maintaining advertising and marketing technology for our clients.
+
+Clearcode is a full-service AdTech and MarTech development company, led by Piotr Banaszczyk, CEO, and Tomasz Chmielewski, COO.
+
+Why Have We Written This Book?
+Throughout our 12+ years of designing and building advertising and marketing technology, we’ve noticed 2 things:
+
+The platforms and processes that make up AdTech are highly complex.
+There are very few resources out there that explain in an easy-to-understand and transparent way how online advertising works from both a fundamental and technical perspective.
+It came to our attention that we were essentially sitting on a gold mine of knowledge that we could share with others.
+
+And thus the idea of The AdTech Book was created.
+
+Who Is The AdTech Book Written For?
+The AdTech Book is ideal for anyone wanting to learn about the history of online advertising and understand how the different elements of the digital advertising technology ecosystem work, what their roles are, and the relationships between different parties in the industry.
+
+Even though the book contains a lot of highly technical and detailed explanations, we’ve tried to write the AdTech Book in the most straightforward way possible so that anyone can read and understand the contents of the book.
+
+More specifically, the book will greatly benefit:
+
+C-level executives and founders at advertising and marketing companies.
+Advertisers and marketers who work in-house or at advertising agencies.
+Programmers and technical teams that build advertising and marketing technology.
+Publishers and content creators who monetize their content with advertising.
+Regular, everyday web surfers who want to learn how online advertising works.
+General Assumptions
+This book assumes that you grasp the concept of how ads are used to monetize websites and promote products and services. This book does not assume that you have any kind of technical knowledge of how the platforms and processes work, however if you do, then you will find that it is a lot easier to understand the technical explanations covered throughout the book.
+
+How This Book Is Organized
+The first few chapters of the book introduce the history of online advertising and set the scene for the subsequent chapters.
+
+We cover the fundamentals of digital advertising and then slowly start to introduce the platforms, intermediaries, and technical processes.
+
+To view the contents of a particular chapter, first navigate to the chapter by selecting it from the menu on the left (or via the menu icon at the top of the screen if on a mobile device) and then click on the icon with the three horizontal lines.
+
+
+To view the contents of the chapter, click on the icon with the three horizontal lines.
+You can use the left arrow to return to the previous chapter, the right arrow to navigate to the next chapter, and the home button to return to the home page.
+
+Conventions Used In This Book
+Bold
+
+Used in lists and sentences to highlight important terms, e.g:
+
+Brand awareness (aka branding): The main goal is to reach a broad consumer audience, engage with them, and maximize the time they are exposed to the brand.
+
+Italics
+
+Used to highlight a specific term in a sentence, e.g:
+
+A publisher can be defined as any company that produces content that attracts an audience.
+
+Bold and italics
+
+Indicates new terms, e.g:
+
+Advertising Technology (Ad Tech, AdTech, adtech, ad tech, ad technology) refers to the software and tools used to create, run, manage, measure, and optimize online media campaigns.
+
+Italics, underline and bold
+
+Used when referring to chapters for further reading, e.g:
+
+See the chapter The Main Digital Advertising Mediums and Channels for more information about the different types of digital advertisements.
+
+Throughout this book, you’ll see light grey boxes like this one. These boxes have 2 purposes
+
+Explain certain terms located in the surrounding text.
+Provide interesting facts related to the topics being discussed.
+Code Examples
+The code examples featured in this book are used for explanation purposes only. They are not designed to be copied and used unless stated otherwise.
+
+
+<a href="https://www.advertisers-landing-page.com"> <img src="http://advertisement1.jpg"> </a>
+Technical Illustrations, Explanations, And Examples
+Throughout this book, whenever we illustrate, explain, or provide an example of a technical aspect (e.g. a process such as server-side video header bidding) we are doing so in the most common or straightforward way possible in order to avoid the concept being lost in a sea of confusion.
+
+It’s also worth noting that there is often more than one way to carry out the technical processes mentioned in this book.
+
+Server-side video header bidding diagram
+An illustration about how server-side video header bidding works
+Terminology Used In The Book
+You’ll notice that in this book we refer to the same thing by different names. For example:
+
+Inventory, also known as ad space or online media, is the available space a publisher has on their site or app.
+
+This is common within the online advertising industry, but to avoid confusion, we will aim to only use one term throughout the book.
+
+The only exception to this are the terms online advertising and digital advertising. Although these terms are not synonymous with one another, we’ll use both terms sparingly throughout the book to refer to the same thing — advertising delivered and displayed on the Internet or digital devices.
+
+You can view a list of popular terms in our AdTech glossary.
+
+Are You Using an Ad Blocker?
+Although we don’t show ads in our AdTech Book, it is full of terms related to advertising. 
+
+As a result, some ad-blocking tools may detect these terms and prevent them from appearing. For example, in chapter 02. Advertising Basics, Ghostery blocks the headline Ad Space from displaying.  

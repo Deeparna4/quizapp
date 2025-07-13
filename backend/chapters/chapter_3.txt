@@ -1,0 +1,126 @@
+03.
+
+The History of Digital Advertising Technology
+
+Advertising Moves Online
+It was during the early 1990s when many companies, organizations, and Internet enthusiasts started creating the first public websites. Advertisers soon spotted the potential that this new world had to offer and began testing uncharted waters.
+
+The year 1994 saw the first recorded example of online display advertising in the form of a banner ad, which appeared on a website called HotWired (now wired.com). It was purchased by telecommunications giant AT&T and used to promote its campaign titled You Will.
+
+first display on HotWired in 1994
+Image on the left: The first ever banner ad by AT&T appeared on HotWired on October 27, 1994. 
+The image on the right: AT&T’s landing page for its You Will ad campaign.
+Over its three-month life span, 44% of viewers clicked on the banner ad; compare that to today, where it’s estimated that online visitors click on about 0.02% to 2% of ads.
+
+What is a click-through rate? (CTR)
+
+Click-through rate (CTR) is the number of clicks an ad receives divided by the number of times it’s displayed. For example, if an ad had a CTR of 2%, then for every 1,000 impressions, it received 20 clicks.
+
+This was the beginning of what is now a highly lucrative trade.
+
+In the early days of online display advertising, the exchange between an advertiser and a publisher was a direct sales process and resembled the way media had always been bought and sold.
+
+The advertiser would contact the publisher and purchase ad space on its website on a cost-per-thousand basis, known as Cost Per Mille (CPM), as mille means thousand in Latin. This system meant advertisers would pay a certain price for every 1,000 impressions (i.e. 1,000 views). 
+
+In order to display ads on a publisher’s website, the advertiser would send an insertion order (IO) to the publisher’s sales team. The insertion order defines the terms of the campaign and includes the following: 
+
+Campaign objectives: Target group, traffic, branding, etc.
+Line items with campaign execution terms: Which banner sizes to use, where to place the ads, and which pages to display the ads on. 
+Business terms: The pricing model (CPM, CPC, etc.) and payment terms.
+Did you know?
+
+The terms insertion order and line items have their roots in print advertising. Orders were made for ‘insertions’ of the ads in newspapers and the advertiser paid a given rate per line. For example, a single insertion of a three-line item of Business Notice in the The New York Express in 1870 cost 60 cents. 
+
+Source: Pettengill’s Newspaper Directory and Advertisers’ Handbook
+S. M. Pettengill & Company, 1870;
+
+This was still a manual process that wasn’t utilizing the potential that online advertising had to offer. That all changed when the first-ever piece of advertising technology emerged—the ad server.
+
+The first ad servers began popping up in 1995 and initially were used to control the delivery and management of online ads.
+
+Back then, their targeting capabilities were very limited; they could only target ads based on the header information that was passed along with an HTTP call from the user’s browser, such as:
+
+The language set on the user’s computer
+The URL of the page the ad is being loaded onto
+The browser type and version
+The user’s operating system
+The first-ever ad server
+
+The first-ever ad server was founded by a company known as FocaLink Media Services in 1995 by Dave Zinman, Andrew Conru, and Jason Strober.
+
+The company’s name was changed to AdKnowledge in 1998 and was acquired in 1999 by CMGi.
+
+Interestingly enough, CMGi was an Internet company in the 1990s and owned many well-known tech and online businesses, with AltaVista being one of its major portfolio companies.
+
+Even though CGMi survived the dot-com crash in the late 1990s and early 2000s, they sold AltaVista in 2003 to Overture Services, Inc, which was taken over by Yahoo in the same year due to mounting pressure from the board of directors following the 9/11 terror attacks and subsequent stock-market crash.     
+
+After some time, difficulties started to arise when the number of websites, and therefore publishers, began to increase. The once-straightforward direct sales process started to become more complex and drawn-out.
+
+While premium ads—those bought by advertisers directly from the publishers—were still common, publishers soon found that a lot of other available inventory wasn’t being filled and fell victim to oversupply. 
+
+Moreover, advertisers had to sign individual insertion orders with every publisher they wanted to work with and coordinate the campaign execution. 
+
+To overcome these problems, advertising networks (aka ad networks) started to appear. In 1996, a company called DoubleClick emerged as one of the first ad networks. 
+
+A brief history of DoubleClick
+
+DoubleClick was founded in 1995 by Kevin O’Connor and Dwight Merriman. It was purchased by private equity firms Hellman & Friedman and JMI Equity in July 2005 for US$1.1 billion. Then, in March 2008, it was acquired by Google for US$3.1 billion.
+
+DoubleClick was one of the few online companies to survive the dot-com bubble between the mid-’90s and early 2000s.
+
+In 2018, Google rebranded their Google AdWords and DoubleClick ad products and created three primary brands: Google Ads, Google Marketing Platform, and Google Ad Manager.
+
+In the beginning, ad networks acted as brokers between advertisers and publishers and enabled publishers to monetize their inventory without the need for in-house sales or AdOps teams.
+
+They would aggregate unsold inventory from publishers and offer advertisers a consolidated and generally less expensive pool of impressions.
+
+Network example
+Ad networks benefit both advertisers and publishers. 
+
+They provide publishers with a highly effective way to sell their remnant inventory, which could be as little as a few percent to all of their inventory, depending on how many direct deals they have with advertisers. 
+
+They also help cut down on the time and money associated with selling inventory to advertisers and offer a range of services, such as campaign setup, optimization, and technical support (aka troubleshooting). These services are known today as ad trafficking. 
+
+Advertisers benefit by receiving high cost savings and an easier, more effective way to connect with audiences on a much larger scale.
+
+However, even though the introduction of ad networks added fluency to the ad buying and selling process, many ad networks only wanted to purchase part of publishers’ inventory (i.e. the parts that matched their campaigns) which meant publishers had to work with multiple ad networks in order to sell all of their inventory.
+
+Not only did this mean publishers would have to spend more time searching for the best-valued ad networks and pay multiple commissions, it also meant they would have to set up the inefficient and tedious waterfall system.
+
+For advertisers, this also created challenges.
+
+They soon found that they weren’t able to reach their target audience by using just one ad network, so they started buying inventory from multiple ad networks.
+
+However, this meant they often bought the same audience more than once, lacked clear insights into the effectiveness of their ads, and struggled to identify their best-performing inventory.
+
+To overcome these challenges, a new AdTech platform arrived on the scene—network optimizers, which are known today as supply-side platforms (SSPs). 
+
+Network optimizers allowed publishers to:
+
+Eliminate the time-consuming task of managing multiple ad networks.
+Improve page-load time by sending a single request to a network optimizer rather than sending requests back and forth between the ad networks and the publisher’s ad server (i.e. the waterfall technique).
+Increase revenue by matching their inventory to the right ad network.
+Maintain strict quality controls by blocking certain advertisers, e.g. ones that advertised taboo products and services, such as tobacco and alcohol.
+Shortly after the introduction of network optimizers, ad exchanges emerged to solve the many technical nuisances found in ad networks, such as multiple redirects, and allowed advertisers to purchase inventory on an impression-by-impression basis.
+
+Ad exchanges were one of the AdTech platforms involved in the invention and growth of real-time bidding (RTB).
+
+This was how the online advertising industry looked in the early days—a handful of AdTech platforms helping advertisers and publishers explore the possibilities that technology and the Internet had to offer.
+
+Fast forward to today and the online advertising ecosystem consists of numerous platforms that have arisen over the years to solve the many challenges both advertisers and publishers have faced and to improve the overall buying and selling of digital media.
+
+A timeline of the most important events in programmatic advertising
+
+Below are a few important events from the first decade or so.
+
+1994: Lou Montulli and John Giannandrea invent cookies while working at Netscape.
+1994: AT&T displays the first ever banner ad on HotWired (now Wired).
+1995: The first ever ad server was founded by a company known as FocaLink Media Services. The company was founded by Dave Zinman, Andrew Conru and Jason Strober.
+1996: Kevin O’Connor, Dwight Merriman and Fergus O’Daily found DoubleClick.
+1996: Yahoo! starts displaying search ads on their search engine.
+2000: Google launches AdWords (now known as Google Ads). It started with a cost-per mille (CPM) pricing model, but later introduced a cost-per click (CPC) model in 2002.
+2002: Applied Semantics creates AdSense contextual advertising technology. Google acquired the company in April 2003 and launched the Google AdSense network, enabling publishers to monetize their content with pay-per click (PPC) ads.
+2006: Popular ad-blocking software, Adblock Plus, launches.
+2006: Mobile ad networks, like AdMob, emerge and start selling ad space on mobile phones. This was before the smartphone era with the ﬁrst iPhone being released a year later in 2007.
+2007: Google acquires DoubleClick for $3.1 billion, Microsoft buys AdECN for reportedly between $50-75 million, and Yahoo! purchases RightMedia for $700 million.
+2007/2008: Real-time bidding (RTB) is introduced as a way to allow advertisers to buy individual impressions on websites via a real-time auction. It’s around this time that demand-side platforms (DSPs), like MediaMath, start to emerge.

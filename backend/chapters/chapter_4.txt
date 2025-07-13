@@ -1,0 +1,417 @@
+The Main Technology Platforms and Intermediaries in the Digital Advertising Ecosystem
+
+As we learned in the second chapter, advertising in the offline, print world before the introduction of the Internet was a manual process that relied on people to create, configure, and deliver advertising campaigns.
+
+The Internet has brought with it, however, a revolution of technological innovation that has changed the way all of these things are done.
+
+Today, online and some offline advertising campaigns are powered by technological platforms (software). These platforms are all part of the online advertising ecosystem.
+
+The online advertising ecosystem is a vast entity that consists of over a dozen different types of advertising technology platforms and intermediaries that all play a role in the creation, execution, and measurement of an online advertising campaign.
+
+The digital ecosystem
+As the diagram above illustrates, there are a number of platforms and intermediaries involved in the buying and selling of ads and data.
+
+We’ll be constantly referring to these platforms and intermediaries throughout this book, so let’s take a closer look at them now.
+
+Advertisers – The Buy Side
+Advertisers (brands) represent the buy side, as they are the ones wanting to buy online media (aka ad space or inventory).
+
+Advertising Operations (AdOps)
+On the advertiser’s side, the AdOps department is responsible for setting up, monitoring and optimizing campaigns.
+
+In the beginning, this was a manual process, but as time went on, AdOps started using AdTech platforms to improve the processes, such as an ad server (aka third-party ad server).
+
+Advertiser’s Ad Server (aka Third-Party Ad Server)
+A third-party ad server, also known as the advertiser’s ad server, is a web-based technology platform responsible for making decisions about what ads to show on a website, serving those ads, connecting with other AdTech platforms (e.g. demand-side platforms) to purchase inventory, and collecting and reporting data such as impressions, clicks, etc.
+
+Below are some examples of ad servers for advertisers:
+
+
+Intermediaries
+Intermediaries are companies and platforms that sit somewhere in between the advertiser and publisher.
+
+Advertising Agencies
+An advertising agency is a company that provides services to brands associated with creating, planning, and managing advertising campaigns. 
+
+Advertising agencies are generally independent, external companies working for their clients, which can include businesses, international corporations, non-profit organizations, and governments.
+
+Traditionally, brands hired ad agencies to produce television commercials and run print campaigns in magazines, newspapers, and on billboards, but also to take care of other forms of promotion and marketing.
+
+Due to the growth and rise in popularity of the Internet, agencies use an array of advertising and marketing technologies to create, run, manage, and measure online campaigns. These types of agencies are also known as interactive, creative, media, or digital agencies.
+
+The History of Advertising Agencies
+Before advertising agencies were born, ads were delivered to various media outlets through representatives who, in the early days of advertising, sold and re-sold advertising space with a markup. 
+
+These were the humble beginnings of fully fledged advertising companies, i.e. agencies. 
+
+With time, the agencies would take on additional responsibilities: planning, writing, designing, and coordinating ads.
+
+The first bona fide agencies date back as far as 1786 when William Taylor opened his office in London, today acknowledged as the first advertising agency in history. However, while the UK business is considered the precursor of advertising agencies in Europe, it was Volney B. Palmer who took the idea across the ocean to the US.
+
+Palmer opened the first agency on American soil in 1840. Adland: A Global History of Advertising cites Palmer describing the services he provided using the term “agent”:
+
+“the duly authorized agent of most of the best newspapers of all the cities and provincial towns in the United States and Canada, for which he is daily receiving advertisements and subscriptions.”
+
+In this way, Palmer’s office at the northwest corner of Third and Chestnut Street in Philadelphia became the prototype for today’s advertising agency.
+
+In 1842, he bought large amounts of space in various newspapers at a discounted rate, then resold the space at higher rates to advertisers. The actual ad, including the copy, layout, and artwork, was prepared by the client, which basically made Palmer an ad-space broker with little influence on the creative side.
+
+Some agents created directories with advertising rates of newspapers and agencies made a profit buying newspaper space and reselling it with a markup.
+
+The business model was very popular until the 19th century when N.W. Ayer & Son was founded in New York.
+
+The agency provided a wider range of services, which included planning, creating, and executing complete campaigns, making itself famous working for brands such as De Beers, AT&T, and the U.S. Army, creating a number of memorable ads and slogans:
+
+
+Long-distance telephone service advertisement for AT&T Corp. by Anthony (Tony) P. Galli and Stanley Lomas.
+
+Military service advertisement for the U.S. Army by E. N. J. Carter 1981.
+
+An advertisement for De Beers diamonds. The term ‘diamonds are forever’ was coined by Mary Frances Gerety 1947.
+How Have Ad Agencies Changed Over Time?
+In the early days, agencies were hardly creative at all. 
+
+Even today, the creative process is actually only a small part of what ad agencies do.
+
+Ogilvy argues, on top of the creative side of things, agencies do lots of market research; prepare detailed media plans, purchase advertising space.
+
+Over the decades, agencies have evolved to suit the changing needs of the clients, doing many things people loosely classify as marketing.
+
+The advent of the Internet, however, completely redefined their role and posed new challenges.
+
+Before the Internet
+ The first advertising agents acted, either directly or indirectly, on behalf of newspapers rather than directly for advertisers. 
+
+As such, they were initially only intermediaries selling space and charging hefty commissions on ad space.
+
+However, from their beginnings in the 1800s, through the golden era of advertising in the 1950s, globalization, and the ultimate shift towards digital, ad agencies have gained new roles and diversified.
+
+Already in the Mad Men era of the 1960s, the agency acted more as the brand’s partner, taking responsibility for developing strategies, conceiving campaign ideas, and managing the ad insertion process for the brand.
+
+The Introduction of the Internet
+For a long time, agencies were the go-to businesses for all offline advertising efforts. However, the introduction of the Internet was a complete game-changer. 
+
+AdTech companies started disrupting and threatening the way ad agencies operated by offering completely new opportunities, which shifted the balance of power away from traditional agencies.
+
+Soon, agencies were able to leverage advertising technology, gaining access to unparallelled amounts of data about consumers and their online behavior. 
+
+While many brands still think of ad agencies in traditional terms, specialized agencies increasingly explore the opportunities offered by social media, display ads, retargeting, and content personalization. 
+
+Today, AdTech companies build complex technologies for brands and advertisers, such as demand-side platforms (DSPs). These types of media-buying tools offer targeting and analytics unheard of in the world of traditional advertising.
+
+Examples of Large, International Ad Agencies
+Globalization of advertising and rapid growth of agencies started in the 20th century when American agencies began opening their overseas offices before the two World Wars.
+
+McCann Erickson, established in New York City in 1902, opened its first European offices in 1927. South American and Australian offices followed in 1935 and 1959, respectively.
+
+Companies such as J. Walter Thompson adopted a strategy to expand in order to be able to provide their services right where their clients operated.
+
+English agencies followed suit and also started to explore opportunities associated with globalization in the 1960s and 1970s.
+
+Overseas expansion offered access to new markets.
+
+Saatchi & Saatchi, perhaps one of the most iconic English agencies today, was founded in 1970 and rose to international prominence following relationships with clients such as British Airways and Toyota. This allowed them to build a network of offices worldwide.
+
+Below are the five largest advertising agencies:
+
+A list of popular agencies
+WPP Group, London
+Omnicom Group, New York City
+Publicis Groupe, Paris
+Interpublic Group, New York City
+Dentsu, Tokyo
+Despite the challenges and hurdles ad agencies have faced, especially over the past few years with the rise of AdTech vendors, they have prevailed and proven themselves as a valuable and key component of the advertising process, and will likely remain so for years to come.
+
+Agency Trading Desk (ATD)
+An agency trading desk (ATD) is often defined as a company that offers programmatic managed services to brands. 
+
+ATDs are typically responsible for running the programmatic media-buying activities for brands and comprise of both a services layer — media buyers, developers, account managers, etc. — and a technical layer — their proprietary technology plus external tools, such as DSPs.
+
+How an agency trading desk fits into the display ecosystem
+All of the popular advertising agencies have their own agency trading desk which runs the programmatic media-buying activities for the agency’s clients.
+
+Examples of agencies and agency trading desks
+Ad Network
+An ad network is a technology platform that serves as a broker between a group of publishers and a group of advertisers.
+
+Ad networks were first introduced in the mid-1990s as a way to help publishers sell their available ad inventory and help advertisers scale their digital ad campaigns across many different sites without having to deal with each publisher directly.
+
+Network example
+Ad networks aggregate unsold inventory from publishers and offer advertisers a consolidated and generally less expensive pool of impressions on a cost-per mille (CPM) basis.
+
+What Benefits Do Ad Networks Provide Publishers and Advertisers?
+While ad networks are mainly responsible for helping publishers sell their remnant inventory, they also provide advertisers with some benefits:
+  
+Scale: An advertiser can buy more inventory from many publishers through one ad network and centralize the reporting for the campaign.
+
+Time savings: An advertiser sets up the campaign once and does not need to sign insertion orders for each publisher separately.
+
+Campaign reach and measurement: The reach of the campaign will be measured and frequency capping will be applied to the whole campaign.
+
+Monetization: Publishers can sell the inventory that they weren’t able to sell via direct deals.
+
+Many ad networks specialize in certain types of inventory, including: 
+
+Premium ad networks: Offer inventory from the top publisher brands (e.g. The New York Times).
+Vertical ad networks: Focus on certain topics, such as business, technology, automotive, fashion, etc.
+Specialized ad networks: Focus on a certain type of channel (e.g. mobile, video, native).
+Performance and affiliate ad networks: Use the revenue share, cost-per click (CPC), or cost-per-action (CPA) pricing model.
+The targeting and decision-making processes in ad networks work in a similar way to those found in ad servers, but there are a few slight differences.
+
+By setting targeting criteria for a campaign, an advertiser can choose which web traffic is relevant for them. 
+
+Examples of targeting criteria in ad networks include:
+
+Run on network (RON) – run on all sites in the ad network
+Run on site (ROS) – target specific domains/publishers in the ad network 
+IAB categories
+Geolocation
+Keywords (context)
+Time of day
+Browser type / OS
+… and many others
+Some popular ad networks include:
+
+
+Demand-Side Platform (DSP)
+A demand-side platform (DSP) is a technological platform that allows media buyers (advertisers and agencies) to run advertising campaigns and buy inventory from various ad exchanges and SSPs through one user interface.
+
+DSPs are a key component of the real-time bidding (RTB) process, which allows advertisers to buy media on an impression-by-impression basis.
+
+To help improve targeting and enhance media buys, DSPs often utilize data from data-management platforms (DMPs) and data brokers.
+
+Some of the main DSPs on the market are:
+
+
+DSPs are complex platforms that incorporate many different components, including:
+
+The anatomy of a demand-side platform (DSP)
+The Anatomy of a Demand-Side Platform (DSP)
+Click on the image above to view the full infographic in a new tab.
+What’s the difference between an ad network and a DSP?
+
+Even though these two platforms seem to operate in a similar way, the main difference is:
+
+Ad networks aggregate inventory from multiple publishers and sell it as packages to advertisers, whereas DSPs purchase inventory on an impression-by-impression basis via real-time bidding (RTB).
+
+Data-Management Platform (DMP) – For Advertisers
+A data-management platform (DMP) is responsible for collecting, storing, and organizing massive loads of data for advertisers, taken from a wide range of first-party, second-party, and third-party sources.
+
+The image below illustrates the main features and components of a data-management platform (DMP).
+
+The anatomy of a data management platform (DMP)
+The Anatomy of a Data Management Platform (DMP)
+Click on the image to view the full infographic in a new tab.
+Advertisers can use a DMP to improve the targeting of their online advertising campaigns. To do this, they would carry out the following processes:
+
+Collect the data – e.g. first- and third-party data.
+Create audiences based on certain criteria, such as gender, location, or interests.
+Export these audiences to media-buying platforms, such as demand-side platforms (DSPs), and use them for ad targeting.
+Below are some popular DMPs:
+
+
+We explain more about what a DMP is and how it works in chapter 11. Data Management Platforms (DMPs) and Data Usage.
+Ad Exchange
+An ad exchange is a dynamic technological platform that facilitates the buying and selling process of available impressions between advertisers, who place their bids via DSPs, and publishers, who sell their inventory via supply-side platforms (SSPs) or directly with the ad exchange.
+
+Ad exchanges are often compared to stock exchanges, as the buying and selling process of media is akin to the process of buying and selling stocks via a stock exchange.
+
+Supply-Side Platform (SSP)
+A supply-side platform (SSP) is another technological platform designed to help publishers sell their inventory on multiple ad exchanges and ad networks, and in some cases directly to DSPs, in an automated, secure and efficient way.
+
+The main components and features of an SSP include:
+
+The anatomy of a supply-side platform (SSP)
+The Anatomy of a Supply-Side Platform (SSP)
+Click on the image above to view the full infographic in a new tab.
+Even though publishers don’t need to use an SSP to sell their inventory on the ad exchange, the technology used in SSPs provides many benefits that allow them to receive the most yield from their inventory and gain clearer insights into their audience.
+
+Some popular ad exchanges and SSPs include:
+
+
+What’s the difference between an SSP and an ad exchange?
+
+In short, SSPs offer their clients tools to help them manage their inventory, sell their inventory on ad exchanges, and optimize yield.
+
+Ad exchanges allow DSPs and SSPs to come together and conduct media transactions, sort of like an eBay for ads.
+
+However, most SSPs nowadays also exchange mechanisms, meaning DSPs can connect directly to SSPs and purchase inventory through RTB auctions. This DSP-SSP connection is achieved by using the OpenRTB protocol (more on that in a later chapter).
+
+Data-Management Platform (DMP) — For Publishers
+While data-management platforms have typically been associated with advertisers, they also provide publishers with a number of opportunities.
+
+The main things publishers can do with a DMP include:
+
+Creating another revenue stream with audience extension.
+Increasing the cost of their inventory.
+Improving engagement with content personalization.
+We explain more about what a DMP is and how it works in chapter 11. Data Management Platforms (DMPs) and Data Usage.
+
+Data Broker
+A data broker – also known as an information broker, data provider, and data supplier – collects and sells offline and online consumer data to other companies.
+
+Data brokers buy data from different publishers and other data holders (credit-card companies, telecoms and ISPs, retailers etc.) combine it into aggregated audiences (aka segments).
+
+Segments are most commonly organized into different categories, such as demographics (gender, age, income groups, etc.), interests (sports, travel, etc.), purchase intent (e.g. car/home buyers), and many others.
+
+Data Broker data segmentation
+These segments are then sold to advertisers and used for ad targeting, typically by connecting to demand-side platforms and data-management platforms.
+
+Below are a few of the main data brokers that supply data to advertisers:
+
+A list of the main data brokers
+Verification and Measurement
+Verification services use technology to provide advertisers with additional information about their online advertising campaigns.
+
+The information provided by verification services can inform the advertiser about the following:
+
+On which websites the ads were displayed.
+Where they were displayed (geolocation).
+What percentage of ads were viewable by the user.
+If fraudulent traffic was detected, e.g. impressions, clicks, and/or conversions generated by bots.
+If the ads were displayed next to questionable content (e.g. illegal or offensive content).
+Measurement and analytics companies provide detailed analysis of the performance and reach of online ads. They also provide detailed insights into customer behavior, trends and other user-centric data to help advertisers improve the performance and targeting capabilities of their campaigns.
+
+It’s important to note that the analytics mentioned here are different than the analytics used for tracking and reporting on website traffic or in-app user behavior.
+
+Web/app analytics are part of the marketing-technology (MarTech) ecosystem; however, more and more web- and marketing-analytics solutions are providing insights into ad campaigns. This is part of a trend aimed at providing more robust platforms that combine several functions and cover many different areas connecting both the online marketing and advertising technology spaces.
+
+Here’s an overview of how ad-verification tools work:
+
+How verification tools work
+Here is what’s happening in the image above:
+
+A user opens a web page, which contains a dedicated space where an ad loads (an ad slot).
+Demand-side platforms (DSPs) are called via supply-side platforms (SSPs), ad exchanges and ad networks. When there is a direct publisher-advertiser deal, the ad code (aka ad markup) is configured directly in the publisher’s ad server, including the creative, impression-tracking pixel and ad-verification code.
+The DSP with the highest bid wins the impression. An ad is sent to the publisher’s site via the ad markup.
+As the ad is loaded, the ad-verification code in the ad markup collects information about the website and user – ad placement, audience, engagement, etc.
+The ad-verification vendor sends performance reports to the advertiser.
+Creative Optimization
+A creative optimization company works with media buyers (advertisers and agencies) to improve the performance of online ad campaigns. 
+
+These creative optimization companies usually add a layer of rich media, such as video, to the standard banner ads to make them more interactive, dynamic, and appealing — thus improving their effectiveness. 
+
+Dynamic creative optimization (DCO) platforms utilize user data to personalize the creative and run A/B tests to determine the best-performing variant of the creative — all with minimal human involvement.
+
+The Sell Side (Publisher)
+Publishers (websites and apps) represent the sell side, as they are the ones wanting to sell the ad space to media buyers.
+
+Advertising Operations (AdOps)
+The AdOps department on the publisher’s side is responsible for setting up the advertiser’s ad campaigns in their ad server (known as a first-party ad server or publisher’s ad server), trafficking tags, configuring header-bidding wrappers and making changes to campaigns if required.
+
+First-Party Ad Server
+This technological platform allows publishers to manage the ad slots on their website and display ads that have been sold directly to advertisers (i.e. direct campaigns). In the event that no direct campaigns are available, first-party ad servers will act as a management platform whereby they decide which ad codes (i.e ones from a third-party ad server, SSP, or ad network) to serve in their ad slots.
+
+Does everyone need an ad server?
+
+Short answer: No.
+
+A large majority of publishers would use an ad server, but not every advertiser would.
+
+As most DSPs offer ad-serving capabilities, advertisers could just use a DSP to store and manage their creatives.
+
+It is also possible for publishers to just use an SSP instead of an ad server, as many SSPs also offer ad-serving functionality and allow publishers to run different types of campaigns.
+
+However, publishers benefit from having an ad server, as it allows them to easily change SSP vendors if needed.
+
+Moreover, smaller publishers could just add the ad codes directly into their website, which would eliminate the need to add and manage a new system.
+
+Here are a few popular ad servers for publishers:
+
+
+How AdTech Companies Make Money
+Building and maintaining advertising-technology platforms is a highly expensive exercise with high costs associated with infrastructure and staffing (developers, technical persons, managers, sales teams, etc).
+
+AdTech vendors need to deliver a high-performance product to their clients and ensure their business model makes money along the way to cover costs and make a profit.
+
+Ever since the early days of online advertising, technology providers have made their money by charging commissions and fees, typically as a percentage on top of the cost of media.
+
+Historically, most AdTech platforms added about 30% to the cost of the media, but this number has decreased over the years due to competition and calls for more transparency into the cost of media, as well as fees and commissions (sometimes referred to as the AdTech tax).
+
+Many AdTech companies claim their take rates are now in the single digits.
+
+An breakdown of the AdTech tax
+While the above illustration is just an example and every setup is different, this is certainly how an advertiser’s budget is distributed a majority of the time.
+
+The AdTech-tax problem is exacerbated due to the fragmented nature of the online advertising ecosystem where there are numerous AdTech vendors involved in the supply chain.
+
+This not only means that advertisers aren’t getting their full money’s worth, but also that publishers are only receiving a small part of the advertiser’s budget.
+
+Over the past few years, the AdTech industry has started to consolidate.
+
+Large AdTech vendors have been acquiring smaller companies and adding them to their client offering.
+
+This plays a role in reducing the number of individual AdTech vendors involved in the online media-buying process, which subsequently reduces the amount of AdTech tax applied to a transaction.
+
+The Walled Gardens
+The AdTech ecosystem can be divided into two groups: independent AdTech companies and walled gardens.
+
+The walled gardens refer to the duopoly of Google and Facebook, but increasingly includes Amazon and Apple. You’ll likely see them written or mentioned as GAFA = Google, Apple, Facebook and Amazon.
+
+The reason these companies are called walled gardens is because they have closed-off ecosystems, whereby they keep their audience and data to themselves, and require brands to use their advertising platforms to access them.
+
+Here’s a quick overview of the power these companies have in online advertising:
+
+
+Apart from its popular search engine, Google owns many different consumer-facing products that are used by billions of people, including: Google Mail, Google Maps and YouTube.
+
+Google also has multiple advertising products used by advertisers and publishers:
+
+A list of Google's products
+Google Ad Manager (GAM): Includes what was once known as DoubleClick for Publishers (DFP) and DoubleClick Ad Exchange (AdX). This suite allows publishers to manage, sell, and serve their inventory to advertisers.
+
+Google Ads: Previously known as Google AdWords. This is used by brands to buy ads on the Google search engine.
+
+Google Marketing Platform (GMP): Comprising of an array of products, including Search Ads 360 (formerly DoubleClick Search), Analytics 360, Data Studio, Optimize 360, Surveys 360 and Tag Manager 360. GMP also includes Display & Video 360 (DV360), which consolidated DoubleClick Bid Manager (DBM), DoubleClick Campaign Manager, DoubleClick Studio and Google Audience Center 360. GMP is used by advertisers and agencies to purchase ad space from publishers.
+
+Google AdSense: An ad network for display inventory. Google AdSense is the most popular ad network among small and medium-sized publishers.
+
+Google AdMob: An ad network for in-app mobile inventory. It is used by over a million advertisers and publishers to buy and sell in-app mobile ad inventory.
+
+Because Google has so many people using its consumer-facing products, which are often accessed via a Google account, it’s able to collect data about users and their behavior and offer it to advertisers.
+
+
+With over 2.3 billion active users, Facebook is a highly attractive option for advertisers wanting to reach their target audience.
+
+Facebook’s main ad products include Facebook’s Ad Manager and Facebook Audience Network:
+
+Facebook’s Ad Manager programmatically sells only Facebook inventory – based on advertising formats that only appear on Facebook. 
+
+Facebook Audience Network allows advertisers to show their ads on mobile apps and websites outside of Facebook, enabling them to reach the same audience on a larger scale.
+
+In October 2021, Facebook rebranded to Meta. For the time being, we’ll continue to refer to Meta as Facebook in this book until the name Meta becomes more commonly used.
+
+
+Similar to Google, Apple also has many popular consumer-facing products, such as the iPhone and Mac computer, which are powered by Apple’s iOS operating system.
+
+Apple has also begun launching new services, such as Apple Music, Apple Pay, Apple Video, etc. By offering these products and services to consumers that lack interoperability, the company is growing its market share and a user base that’s uniquely its own.
+
+Although Apple runs ads in its App Store, it doesn’t have any advertising platforms akin to Google or Facebook, and has taken a rather strong position on user privacy with it’s Intelligent Tracking Prevention feature on its Safari browser and changes to how app developers and AdTech companies can access a user’s IDFA on iOS devices.
+
+
+With its large ecommerce business growing at a healthy pace, Amazon has moved into the AdTech business by offering advertisers a way to run ad campaigns via its DSP across its properties; Amazon (ecommerce), Fire, Kindle, IMDb and Prime Video.
+
+Unlike Google and Facebook, Amazon has a treasure trove of data on what people search for and buy, making it an attractive opportunity for retailers.
+
+In 2019, the ecommerce giant expanded its advertising product line by acquiring Sizmek’s ad server and dynamic creative tool.
+
+Although this book focuses on the platforms and processes of independent AdTech, we’ll refer to GAFA from time to time.
+
+Below is an infographic that we created showing the walled gardens of AdTech and the products they offer:
+
+An image showing the walled gardens of AdTech in the style of Monopoly
+Monopoly: The Walled Gardens Edition.
+By Clearcode.
+Standardization in the Ecosystem
+In the very early days of online advertising, it became apparent that there would be a need to provide a set of standards to ensure that different advertising technologies could communicate efficiently with one another and deliver ads in the correct format.
+
+In 1996, the Interactive Advertising Bureau (IAB) was founded as a way to standardize the online advertising industry.
+
+
+The IAB is responsible for a number of key activities, including developing technical standards, introducing best practices, conducting industry research and educating companies about the importance of online advertising.
+
+As of 2017, the IAB has over 600 members consisting of leading media and technology companies and has 42 international licensee organizations in the IAB Global Network.
+
+Over the years, the IAB has introduced a number of standards to allow seamless communication between those on the buy side and those on the sell side, such as ad formats and protocols.
+
+Throughout this book, we cover and explain a number of standards the IAB has introduced.

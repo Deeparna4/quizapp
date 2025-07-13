@@ -1,0 +1,335 @@
+12.
+
+Attribution
+
+Identifying users across online channels, online and offline channels, and across numerous devices is a critical part of digital advertising as it allows advertisers to gain a better understanding of how their audience interacts with their brand and improve the customer journey. 
+
+But more importantly, it allows them to attribute conversions and goals.
+
+What Is Attribution?
+Attribution is the process of identifying which touchpoints a consumer interacted with or was exposed to during a period of time before they completed a goal set by an advertiser or marketer. Attribution allows advertisers and marketers to make improvements to their campaigns by understanding which touchpoints are working and which ones aren’t. 
+
+Attribution has always been a part of advertising and marketing, even before the Internet, but it’s through the use of data and technology that advertisers and marketers of today are able to more accurately attribute conversions. 
+
+In this chapter, we cover the methods used to identify and track users as they move through the offline and online worlds and across different devices, and look at the various techniques used to attribute conversions. 
+
+To learn about how conversions are recorded, read chapter 08. Tracking and Reporting Impressions, Clicks, and Conversions in AdTech Platforms.
+
+What is a customer journey?
+
+A customer (aka user) journey is the path a person takes from the time they first become aware of a brand to the time they complete a goal defined by an advertiser or marketer (e.g. a purchase or download). 
+
+Although everyone will have a different customer journey, it’s useful for advertisers and marketers to understand how the different stages of a customer journey and the interactions a person has influence their decision to complete a goal.
+
+Each interaction a person has with a brand during their customer journey is known as a touchpoint. 
+
+What is a touchpoint?
+
+A touchpoint is an interaction a user has with your brand on different channels. 
+
+But a user doesn’t have to actually interact with the touchpoint for it to count. For example, if a user sees a display ad from a brand but doesn’t click on it, then it’s still classed as a touchpoint. 
+
+Examples of touchpoints include:
+
+Website visits
+Product views
+Reviews
+Blog posts
+Ebooks and whitepapers 
+Digital ads
+Social media content
+Videos
+Emails
+Store visits
+In many cases, these touchpoints will influence a person’s perception about your brand. 
+
+Advertisers and marketers will tailor the messaging across different touchpoints depending on where the person is in the customer journey (e.g. awareness, consideration, and purchase). 
+
+For example, advertisers and marketers could run display ads to make people aware of their product. They could then run retargeting ad campaigns on Facebook targeting people who have visited their website to encourage them to make a purchase.
+
+We’ll now look at the different types of attribution.
+
+Online to Online Attribution Models
+Online to online attribution identifies which touchpoints a user had before they completed a goal across different online channels. 
+
+As the goal of most online ad campaigns is to drive users to a website, advertisers and marketers view attribution reports provided by web analytics tools, MarTech platforms like marketing automation platforms and attribution software, and AdTech platforms like ad servers. 
+
+There are two main types of online to online attribution — inter-channel and intra-channel.
+
+Inter-channel-examples
+Inter-channel attribution looks at touchpoints across different channels.
+
+Intra-channel-examples
+Intra-channel attribution looks at touchpoints in the same channel.
+
+How Does Online Attribution work?
+When it comes to detecting which online channels and interactions a user had in their customer journey, there are a few ways you can do this. 
+
+The simplest way is to use the Referrer field in the HTTP protocol when a user is directed from an online channel to your website.
+
+The Referrer field is passed with every request from the browser to the web server. Here’s an example of a standard HTTP GET request:
+
+
+GET / HTTP/1.1
+Host: clearcode.cc
+DNT: 1
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Referrer: http://publisher1.com/article-about-adtech.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+In this example, a user was reading an article on publisher1.com and then clicked on a link (or ad) and was directed to https://clearcode.cc.  
+
+Web analytics tools, and AdTech and MarTech platforms will display the following referrers:
+
+Direct
+When a visit is marked as direct it means that the referrer information isn’t known. 
+
+There are many reasons why a referrer can be marked as direct:
+
+The user entered the URL in their brower’s web address bar or accessed it from their bookmarks.
+The user entered the website from a subdomain, e.g. they first accessed publisher1.com and then clicked on a link that took them to blog.publisher1.com. 
+The user clicked on a link or ad in a native mobile app that didn’t contain UTM parameters in the URL (e.g. publisher1.com/?utm_campaign=native-app). 
+There were some technical issues that resulted in referrer loss, such as clicking on a link from a secure website (https://) to an unsecure website (http://). The table below illustrates when referrer loss occurs between secure and unsecure websites:
+HTTP Protocol	Referrer passed or lost?
+https:// to http://	Referrer lost
+http:// to https://	Referrer passed
+http:// to http://	Referrer passed
+https:// to https://	Referrer passed
+As most websites nowadays use the secure https:// protocol, this is less of an issue.
+
+Organic
+Organic traffic comes from a search engine like Google Search, Bing, and DuckDuckGo. 
+
+If an advertiser or marketer is running paid search ads, then these would be marked as ‘campaign’ (see below).
+
+Social
+Visits from social media sites like Facebook, LinkedIn, Twitter, and YouTube are marked as ‘social’.
+
+Website
+When a user clicks on a link from a website and is directed to the advertiser’s website, then it’s classed as a ‘website’ referrer (like in the example above). 
+
+Campaign
+The ‘campaign’ referrer is recorded when the website a user lands on contains UTM parameters. In this case, the Referrer field is ignored and the UTM parameters are used to determine the referrer. 
+
+Some AdTech and MarTech platforms will just list this referrer as ‘Campaign’, while others will mark them as ‘Paid social’ or ‘Paid search’, depending on what information is contained in the UTM parameters. 
+
+For example, if a user clicks on a LinkedIn ad and is directed to a website containing the UTM parameters below, then the referrer could either be recorded as ‘Campaign’ or ‘Paid social’.
+
+
+?utm_source=linkedin&utm_medium=ad&utm_campaign=linkedin-ad
+Similarly, if a user clicks on a paid search ad on Google and is directed to a website containing the below UTM parameters, then the referrer could either be recorded as ‘Campaign’ or ‘Paid search’.
+
+
+?utm_source=google&utm_medium=ad&utm_campaign=paid-search-ad 
+Every time the user comes from a different channel, a new session (visit) starts and the referrer information is recorded, which helps paint a picture of the user journey.
+
+Online Attribution Models
+Now that we know how the different online channels are detected, we’ll now look at the different online attribution models.
+
+1. The Last Click Attribution Model
+The last click (aka last interaction or last touchpoint) attribution model is the oldest model out of them all and despite the number of new attribution models, it is still the default model in many web analytics, MarTech, and AdTech platforms.
+
+The last click attribution model assigns 100% of a conversion to the last known referral, click, or traffic source. 
+
+So if the last action before a conversion was a direct entry, then 100% of the conversion would be attributed to the direct entry. 
+
+100% conversion attributed to direct entry
+Although this model is one of the simplest, it ignores all the other touchpoints in a customer journey, which can lead to poor decision making when choosing which channels to optimize. 
+
+2. The Last Non-Direct Attribution Model
+The last non-direct attribution model is very similar to the last click attribution model but it removes direct visits from the equation. 
+
+With this model, 100% of a conversion is attributed to the last known referral that wasn’t a direct visit.
+
+Here’s an example of how this process looks:
+
+A user clicks on a link on Facebook and is directed to your website.
+They browse your website but then leave.
+They later type your website into their address bar and download one of your ebooks.
+Because the third step is a direct visit, the last non-direct attribution model would ignore this and assign 100% of the conversion to Facebook.
+
+Last click model
+This model is better than the last click model, but still doesn’t take into account the other touchpoints a person has in their customer journey and can also lead to bad decisions.
+
+3. The First Click Attribution Model
+The first click (aka first interaction or first touch) attribution model is similar to the previous two, except it assigns 100% of a conversion to the first click or referrer in the customer journey. 
+
+last click and last non-direct attribution model
+This model suffers from the same drawbacks as last click and last non-direct attribution models.
+
+4. The Linear Attribution Model
+The linear attribution model evenly attributes conversions to all touchpoints in a customer journey. 
+
+ Model valuing each conversion equally
+Even though this model values each conversion equally, which rarely is the case, it is useful for getting an overview of the customer journey.
+
+5. The Time Decay Attribution Model
+The time decay attribution model is a modification of the linear model.
+
+With this attribution model, the touchpoint that is closest in time to the conversion gets the most credit. 
+
+The remaining touchpoints are given credit based on how far away they are from the conversion. Put simply, the further away a touchpoint is from a conversion, the more its credit “decays”.
+
+It not only provides the full picture of the customer journey but also assigns a certain weight to each touchpoint based on the time difference between each touchpoint. 
+
+The different touchpoint attributed for the conversion
+The above image illustrates how the different touchpoints could be attributed for the conversion.
+
+This model assumes that the most recent touchpoints were the ones that influenced the user to convert, which may or may not be the case.
+
+6. The Position Based Attribution Model
+The position based attribution model grabs all the touchpoints in the customer journey and assigns them credit based on their position in the conversion path.
+
+This model gives more weight to the first and last interaction in the customer journey. The rest of the attribution credit is divided among the remaining touchpoints.
+
+Good choice_customer journey overview
+This model is often a good choice for advertisers as it provides an overview of the customer journey and assigns credit to the two most important interactions — the first and last interactions.
+
+7. The Custom Attribution Model
+Some AdTech and MarTech platforms allow you to create custom attribution models whereby advertisers set their own rules for attributing touchpoints in a customer journey. 
+
+This option is often a good choice for advertisers as they can take into consideration the specifics of their campaigns, their customers, and customer journey. 
+
+The above online attribution models are specific to one device (e.g. a laptop and smartphone) and web browser (e.g. Safari, Firefox, and Google Chrome). If we want to attribute conversions from different devices and web browsers, then we’ll have to use cross-device attribution. 
+
+Cross-Device Attribution
+Cross-device attribution aims to record interactions a user has with a brand across multiple touchpoints and devices, and ultimately attribute conversions accordingly. Where online attribution models aim to attribute conversions across different channels, multi-touch attribution aims to attribute conversions across different web browsers and devices, as well as channels.  
+
+Here’s an example of how cross-device attribution would look:
+
+Cross device attribution example
+How Does Cross-Device Attribution Work?
+To attribute online conversions between different channels, AdTech and MarTech companies use cookies — typically third-party cookies. 
+
+However, because cookies are tied to one device and one web browser, they can’t be exported to another, meaning they are useless for cross-device attribution. 
+
+To attribute conversions across different web browsers and devices, measurement companies use deterministic matching, probabilistic matching, or a combination of both. 
+
+We explained what these two methods are and how they work in a previous chapter (10. User Identification), but here’s a recap:
+
+Deterministic matching uses common identifiers, such as email addresses and phone numbers, to identify and match users across different devices. 
+
+Probabilistic matching uses less-common pieces of data, such as IP addresses and location data, to identify and match users across devices. Because the data isn’t as accurate or unique as deterministic data, probabilistic matching also uses algorithms and statistical modeling to make a match.
+
+To use these methods for cross-device attribution, AdTech and MarTech companies would create user profiles that collect and contain these pieces of data. 
+
+Below are two examples of how deterministic matching and probabilistic matching can be used for cross-device attribution:
+
+Deterministic matching for cross-device attribution
+
+Deterministic-matching-for-cross-device-attribution
+Probabilistic matching for cross-device attribution:
+
+Probabilistic-matching-for-cross-device-attribution
+As we can see in the examples above, the actual attribution process is similar for both deterministic and probabilistic matching. The main difference is the data that is used to identify the user and attribute the conversion. 
+
+For walled gardens like Google and Facebook, attributing conversions with deterministic matching is much easier than for independent AdTech companies because of the types of data they collect — e.g. email addresses and names — and because many users will use their Facebook or Google account across different devices. 
+
+If brands, agencies, and independent AdTech companies (e.g. DSPs) want to conduct cross-device attribution, then they’ll need to use a DMP like LiveRamp or a cross-device measure platform like Tapad. 
+
+These companies will collect user data from different online and offline sources, create user profiles, and produce a graph — sometimes referred to as an identity, ID, or device graph. Brands, agencies, and tech companies then use these graphs for identification, ad targeting, and attribution.
+
+
+An illustration of how ID graphs work.
+Learn more about the various identity solutions and how they work in chapter 10. User Identification. 
+
+Offline-Online Attribution
+Even though advertising and marketing is moving online, there is still a need to combine offline data with online data and attribute and track users across offline and online sources.
+
+For example, it’s important for advertisers to know whether a billboard ad resulted in a website visit or online conversion.
+
+Examples of offline channels include:
+
+Direct mail
+Traditional outdoor advertising — i.e. out-of-home (OOH) and digital out-of-home (DOOH) advertising.
+Telemarketing
+TV
+Radio
+Below are the most common ways for advertisers to attribute offline ad exposure with online conversions.
+
+Vanity URLs
+Vanity URLs are domain names that are often created for a specific advertising campaign. They’re designed to match the company’s brand, be easy to remember, and shorter than the actual URL of the landing page. Companies use vanity URLs to promote a new product or service and use them in OOH, TV, and radio ads. 
+
+For example, instead of using a URL like
+company1.com/new-product?utm_source=ooh&utm_medium=billboard-airport&utm_campaign=new-product, an advertiser could use newproduct.com.
+
+The vanity URL could take the user to a dedicated landing page, (e.g. newproduct.com) or redirect them to a different landing page (e.g. company1.com/new-product). With either option, the vanity URL will redirect the user to a destination page and add campaign tracking parameters for traffic attribution.
+
+There are different types of vanity URL:
+
+Standalone vanity URLs, e.g. newproduct.com
+Subpage vanity URLs, e.g. company1.com/newproduct
+Shortened vanity URLs, e.g. sv.ly/newproduct
+Vanity URLs are useful for measuring the reach and impact of offline ad campaigns and attributing them to online website visits and conversions, but they are not 100% accurate because some users who saw the ad may later perform a Google search for the product or service instead of typing in the vanity URL. This means any conversion that occurs as a result of this will be attributed to Google Search and not the offline ad. 
+
+However, it’s still a valuable method for gauging the effectiveness of an offline ad.
+
+Time-limited attribution windows
+Another way to measure offline ad exposure to online web traffic and conversions is via the time-limited attribution window. 
+
+This model analyzes a period of time (e.g. 30 minutes) after the air time of a TV or radio advertisement and looks for increases in web traffic and conversions. 
+
+When applying this model, advertisers need to consider the following:
+
+How long should the window be open? E.g. should we look at web traffic and conversions 30 minutes after our radio ad aired or longer?
+How can we separate the traffic and conversions that were exposed to the campaign from the ones that weren’t?
+How do we determine whether other campaigns influenced the increase in traffic and conversions during the attribution window?
+Most AdTech and MarTech companies offer an attribution window model as part of their measurement offering, but it’s often limited to one channel (e.g. display). If advertisers want to measure offline ad exposure to online web traffic and conversions, then advertisers will need to set this up manually in their analytics software or use a dedicated attribution tool. 
+
+Online surveys
+Instead of using complex attribution models, advertisers could simply ask users how they found their website. 
+
+Although this is a very simple approach, it can provide valuable insights that you might not get with attribution models. 
+
+Advertisers can implement online surveys at three different levels:
+
+When a user fills out the purchase or sign-up form or on the confirmation page.
+When a user is browsing your website, open a discreet sidebar pop-up asking them to fill out a survey (you could offer a coupon code as an incentive).
+When the user is leaving the website, open a pop-up survey.
+Confirmation survey page
+Even though not every user will fill out a survey or just select a random field, advertisers will still have enough data to compare the survey results with their attribution and traffic source data. 
+
+Coupons
+Coupons have been around for decades but their popularity and effectiveness for attributing conversions is still strong. 
+
+By using coupons in their marketing materials, advertisers can attribute conversions to specific offline channels, often with more accuracy than with attribution models and technology platforms. 
+
+Coupons work best with direct mail campaigns and other printed advertising materials, but it’s a good idea to issue unique coupons per campaign, and when possible, per client.
+
+Zip/Postal codes
+Collecting zip codes from online customers can be used to measure different offline campaigns, such as direct mail and out-of-home campaigns. 
+
+Although this method won’t be very accurate — you won’t know for certain whether someone with a certain zip code was influenced by your campaign — it can be used in conjunction with the models listed above for improved accuracy. 
+
+This approach would really only make sense for ecommerce stores, or companies that have an offline and online store, as they collect billing and delivery information during the purchase process.
+
+Online-Offline Attribution
+Let’s now look at a few ways advertisers can attribute online activity, such as ad views and clicks, to offline purchases in a store.
+
+Beacons
+Beacons are bluetooth-enabled devices that can transmit signals to and from mobile devices such as smartphones and tablets. 
+
+When placed in brick-and-mortar stores, they can be used to send push notifications to devices in a certain radius and collect data about the device itself. The latter can help attribute online activity, such as ad clicks and mobile app activity, to offline purchases. 
+
+Zip/postal codes at POS
+You read a moment ago about how advertisers can use zip codes to attribute offline ads to online conversions, but they can also be used in reverse. 
+
+One of the most common ways to collect zip codes from customers is by asking for them at point of sale (POS). 
+
+Advertisers could then match the zip codes in store with the location data in the online ad campaign reports. Similarly with the use of zip codes for offline and online attribution, this approach is not very accurate and is best used as an addition to other attribution methods. 
+
+The Multi-Device Consumer Journey And The Technological Challenges It Presents
+In the early days of online advertising, the online customer journey was undertaken on one device — predominantly desktops / laptops.
+
+Consumers nowadays use a range of Internet-enabled devices for everything from discovering new products on social media on their laptops, to searching for flights via Google on tablets, to reading emails on smartphones.
+
+
+The chart illustrates global device usage between mobile devices (e.g. smartphones), desktops and laptops, and tablets. 
+Source: statcounter GlobalStats
+This new generation of multi-device users has given rise to the cross-device customer journey. Combine that with online and offline ads and activity and it’s not hard to see why attribution is such an elusive feat for advertisers. 
+
+Attribution tools, analytics platforms, and data platforms like DMPs and CDPs can help advertisers attribute impressions and clicks to conversions across different channels and devices. 
+
+However, the growing number of privacy changes in web browsers and mobile devices mean that collecting attribution data is becoming a lot harder.
+
+As we’ve seen in this chapter, attribution is an important component of improving the effectiveness of ad campaigns. But there are areas of the online advertising industry that significantly and negatively impact the performance and cost of online advertising campaigns, with ad fraud and viewability being two classic examples.

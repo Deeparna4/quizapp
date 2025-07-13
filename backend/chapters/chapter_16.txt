@@ -1,0 +1,201 @@
+16.
+
+Programmatic Advertising and AdTech in 2023: Trends, Challenges and Opportunities
+
+Throughout this book, we’ve explained how many different areas of programmatic advertising and AdTech work. 
+
+In this chapter, we’ll list the main challenges and opportunities in the web, in-app mobile, CTV and OTT, in-game, and DOOH industries.
+
+Recap: The Main Trends, Challenges and Opportunities in AdTech in 2022
+2022 was another turbulent year for the programmatic advertising and AdTech industries, filled with new trends, challenges and opportunities.
+
+Below are the key events in the programmatic advertising and AdTech industries in 2022:
+
+Google and Facebook’s share of digital advertising spend dropped to below 50% in the US for the first time since 2014. It was reported that Google and Facebook captured 48.4% of digital ad spend in 2022, with Google capturing 28.8% and Facebook capturing 19.6%. 
+Google, Meta, Apple and Amazon faced more antitrust investigations relating to anti-competitive behavior in the digital advertising industry. See the full list here.
+Google Chrome announced that it would be shutting down its Federated Learning of Cohorts (FLoC) proposal in its Privacy Sandbox and replacing it with Topics API.
+Google also announced that it will be implementing its Privacy Sandbox in its Android mobile operating system and will be making changes to how its Google Advertising ID (GAID) can be accessed.
+The Belgian DPA ruled that the IAB’s Transparency and Consent Framework (TCF), which is used by thousands of sites to collect user consent via consent management platforms (CMPs), is illegal in its current form.
+The IAB Tech Lab launched its Seller Defined Audiences (SDA) proposal, which aims to allow publishers to create audiences and make them available to advertisers without the need for passing on a user’s identity.
+The European Union’s Digital Marketing Act (DMA) and Digital Services Act (DSA) were passed through the European Parliament, signaling the start of the countdown towards their implementation.
+Netflix announced that it would be introducing an ad-supported plan and selected Microsoft as its AdTech partner.
+Retail media continued to dominate news headlines and secured its position as one of the fast-growing areas of programmatic advertising. 
+Vodafone, together with Deutsche Telekom, released its TrustPid solution — an identifier that is created at the service provider (ISP) level, allowing it to avoid being blocked by web browser settings, ad blockers or IP address masking.
+The IAB, IAB Tech Lab, and the Media Rating Council (MRC) released new standards for measuring advertising inside games — Intrinsic In-Game (IIG) Measurement Guidelines.
+Google offered to spin off some of its advertising business in an effort to avoid more antitrust investigations, but the US DOJ rejected its offer.
+Google Chrome once again announced that it would be delaying the shutdown of third-party cookies until 2024.
+Apple began advertising for job positions related to building AdTech platforms — marking an unofficial move in the AdTech world (again).
+AWS announced that it would be entering the data clean room space with its new offering — AWS Data Clean Rooms.
+The European Data Protection Board (EDPB) ruled that Meta (formerly Facebook) isn’t legally allowed to use the contractual basis for legally processing personal data for advertising purposes. Instead, Meta needs to use the consent legal basis.
+The IAB Tech Lab updated the OpenRTB protocol to include new objects specifically for digital out-of-home (DOOH).
+The Main Trends, Challenges and Opportunities in 2023
+Privacy
+With so much happening around privacy, what are the key areas to keep an eye on in 2023?
+Privacy has dominated the headlines in the programmatic advertising and AdTech industries over the past few years, and while it’s unlikely that we’ll get too many new surprises on the privacy front in 2023, there are a number of things happening behind the scenes that can further impact companies moving forward.
+
+Below are key events that we can expect to see in 2023 around privacy:
+
+1. US Privacy Laws
+While there isn’t a federal privacy law in the USA, many US states have drafted and implemented their own privacy laws. California has led the way on this with its California Privacy Rights Act (CPRA), which is already in effect. Other states, including Colorado, Connecticut, Utah, and Virginia, have all passed new privacy regulations with many of them already in effect or due to come into effect in 2023.
+
+2. The IAB’s Transparency and Consent Framework (TCF)
+Back in February 2022, the Belgian data protection authority (DPA) declared the IAB’s TCF was illegal in its current form and not in compliance with certain parts of the EU’s General Data Protection Regulation (GDPR). 
+
+Then, in January 2023, the Belgian DPA approved IAB Europe’s plan to fix the issues brought up in the original ruling. But despite this, the IAB still has its work cut for it.
+
+Firstly, the EU’s Court of Justice has to decide whether IAB Europe is classed as a joint data controller, and, secondly, whether TCF strings are classed as personal data. 
+
+While legal proceedings of this magnitude are often dragged out for years, we may see some rulings from the EU’s Court of Justice in 2023, which could have a huge impact for companies relying on the IAB’s TCF for collecting user consent and processing data.
+
+Further reading
+How the IAB’s GDPR Transparency and Consent Framework Works From a Technical Perspective (TCF 1.0 and TCF 2.0)
+3. Google’s Privacy Sandbox
+The introduction of Google’s Privacy Sandbox has suffered a few setbacks over the years, namely the delays in Google’s decision to shut off support for third-party cookies, the backlash over its FLoC standard by privacy advocates, and the UK’s Competition and Markets Authority (CMA) antitrust investigation.
+
+Even though Google Chrome is set to shut off support for third-party cookies in 2024, there is still a lot at play for Google’s Privacy Sandbox. 
+
+Firstly, Google has stated that it won’t shut off support for third-party cookies unless there is a working alternative (i.e. its Privacy Sandbox) in place. According to Google’s own timeline, Privacy Sandbox is set to become available in Q3 of 2023. 
+
+The key things to watch will be whether there are any delays in the release of Privacy Sandbox and how many companies implement the various standards. 
+
+Secondly, Google is facing regulatory pressure from both sides of the Atlantic. 
+
+In the UK, the CMA has focused specifically on Google’s decision to shut off third-party cookies and introduce its Privacy Sandbox and how this affects competition.
+
+Although Google has been cooperating with the CMA, we can’t rule out further action or investigations from the CMA and other antitrust government agencies into Google’s Privacy Sandbox.
+
+4. Google Android
+In addition to Google’s plans to shut off third-party cookies in Chrome in 2024, the tech giant has also signaled that it will be introducing its Privacy Sandbox initiative in its Android mobile operating system and will likely be shutting down its mobile ID — Google Advertising ID (GAID).
+
+Further reading
+How Google Chrome’s Privacy Sandbox Will Work + Possible Solutions for AdTech
+5. The EU’s DSA and DMA 
+On March 24, 2022, the European Parliament and the Council, which represent the 27 EU Member States, reached a political agreement on the proposed new Digital Services Act (DSA) and Digital Marketing Act (DMA).
+
+These two new laws are already in force, with the DSA set to apply from 1 January 2024 and the DMA set to apply from 2 May 2023.
+
+Seeing as the DMA will start to apply in early 2023, we should start to see the large tech giants of Google, Meta (Facebook), Apple and Amazon start to make changes to their tech and business to comply with the new EU regulations. 
+
+The DMA will apply to companies designed as “gatekeepers”. To be classed as a gatekeeper, a company needs to meet certain criteria, such as the company’s financial performance and number of monthly active users. 
+
+Google, Meta, Apple and Amazon all meet the criteria, meaning they’ll be classified as gatekeepers according to the DMA.
+
+Below is an overview of the main changes the gatekeepers are required to make to comply with the DMA:
+
+Data sharing among owned and operated platforms — gatekeepers will be required to obtain user consent to share data among their own platforms, e.g, Facebook will need to get user consent to share its users’ data with WhatsApp and Instagram.
+Third-party access — gatekeepers will be required to open up their ecosystems to allow third-party companies to provide their own services and products, e.g, Apple will need to allow third-party app stores on its mobile operating systems.
+Both the DSA and DMA are designed to help protect the privacy and security of EU citizens and residents and create a more open and fairer market in terms of competition and innovation. Publishers, advertisers and AdTech companies will no doubt be looking at how they can take advantage of these two new regulations.
+
+We’ll certainly see more news about these changes by the tech giants throughout 2023 and discover more about the impact they’ll have on the programmatic advertising and AdTech industries.
+
+Michael Sweeney
+Head of Marketing at Clearcode
+
+Further reading
+What Does the EU’s DSA and DMA Mean for AdTech?
+Display Advertising
+With the end of third-party cookies in Chrome approaching (expected to be shut off in 2024), what can we expect in 2023 around the various alternatives?
+Although many different alternatives have been introduced over the past few years, many companies are dragging their heels and not testing or adopting these alternatives as much as you would expect, considering that it’s very likely that third-party cookies in Chrome will be shut down next year.
+
+Adopting anything new in AdTech has always happened at a snail’s pace. While there’s a sense of urgency, many companies are still relying on third-party cookies, despite the fact that they’re only available in Chrome. 
+
+Having said that, I expect to see more publishers, brands and AdTech companies start to test and implement some of the proposed solutions in 2023, however, I believe the big push towards adopting these alternatives will happen in 2024. 
+
+But companies shouldn’t wait until the last minute to act like many of them did when the GDPR came into force. The best time to test and even implement these alternatives to third-party cookies and mobile IDs is now.
+
+Piotr Banaszczyk
+CEO at Clearcode
+
+Further reading
+6 Alternatives to Third-Party Cookies and Mobile IDs in AdTech
+In-App Mobile Advertising
+With Apple’s changes to its IDFA and Google’s hint that it may be introducing similar changes to its mobile advertising ID in Android, what can the in-app mobile advertising industry learn from the privacy changes in web browsers and how can it adapt?
+Apple’s changes to its IDFA and the introduction of ATT have had a big impact on mobile advertising. Facebook, for example, said that Apple’s privacy changes would result in a US$10 billion loss in 2022.
+
+In February 2022, Google announced that it plans to introduce its Privacy Sandbox initiative into its Android mobile operating system and signaled that it would turn its Google Advertising ID (GAID) in Android in two years. 
+
+Google started testing its Privacy Sandbox in Android in February 2023, so we can expect to see some advancements and news come out of the Beta testing. 
+
+The introduction of Apple’s ATT has impacted all players in the mobile advertising industry and although it appears that Google will follow suit and remove its mobile ID, the shining light is that it will introduce an alternative — i.e. its Privacy Sandbox. 
+
+App developers, advertisers and AdTech vendors should look closely at how they can use Privacy Sandbox as it’s likely going to be one of the only real alternatives for mobile advertising, at least for now.
+
+Michael Sweeney
+Head of Marketing at Clearcode
+
+Further reading
+Apple’s Changes to IDFA in iOS 14: FAQs and the Impact on Mobile Advertising
+Apple’s Privacy Changes in iOS 15 + Impact on AdTech
+A Timeline of Apple’s Privacy Changes in Safari and iOS [infographic]
+CTV and OTT Advertising
+There are many challenges in the CTV and OTT advertising industry that need to be solved, such as measurement, identification and ad fraud. Which areas will see the most improvements in 2023?
+According to eMarketer’s forecast, US connected TV ad spend will more than double by the end of 2026.
+
+However, the main problems that need to be solved in the CTV infrastructure remain the same: identification, measurement, and ad fraud. 
+
+All the processes are interconnected, and resolving one problem leads to improvements in other areas. A more efficient process of data storage, transmission and encryption enables more efficient measurement. Guaranteed and privacy-compliant data transfer reduces ad fraud. 
+
+Since the industry is still relatively new, there is no common standard or shared understanding of fraud. 
+
+Anti-fraud tools are tailored to user algorithms on video content but not on other types of applications like CTV games or screensavers. Therefore, they can sometimes mistakenly mark these as invalid traffic (IVT). 
+
+Statistics, analytics, and attribution are still relatively unsophisticated on all algorithms, including those for anti-fraud, so there is considerable room for improvement.
+
+Additionally, user acquisition continues to be one of the biggest challenges as only some platforms offer the option of paid user acquisition, while on others, most publishers face the difficulty of having to search for different solutions themselves.
+
+Solutions such as data clean rooms can help improve data transfer. The market is shifting towards a greater level of interoperability, and new levels of standardization, which are sure to bring us positive changes in 2023. 
+
+Tetyana Seredyuk
+Co-founder and Chief Strategy Officer at VlogBox
+
+Further reading
+What Is Connected TV (CTV) & OTT Advertising and How Does It Work? [infographic]
+The Difference Between Traditional, Linear, Connected TV, OTT, and Advanced TV Advertising [infographic]
+Programmatic Advertising and AdTech in OTT & CTV [Presentation]
+In-Game Advertising
+With the IAB Tech Lab’s recent release of measurement standards in in-game advertising, do you see more brands investing more in this space? Or does more need to be done to attract advertising dollars?
+More ad spend is bound to come to in-game advertising thanks to the confidence the new IAB measurement guidelines provide for brands.
+
+These standards are yet another stepping-stone in the journey to gaming becoming the largest and most attractive advertising channel we have ever seen.
+
+There are over 3.2 billion gamers on the planet, with the global video games market projected to reach $304.7 billion by 2027. As gaming audiences and the channel continue to grow, so will the relationship between advertisers and game developers. 
+
+Thanks to the official guidelines from the IAB, more and more buyers can feel more confident in including in-game delivery as part of their existing marketing strategies. 
+
+As a result, in-game is no longer a “unicorn” that requires specialist understanding for brands to introduce to their media mix.
+
+Instead, gaming offers advertisers — both big and small — incredible opportunities, such as the ability to reach a diverse audience in a non-disruptive manner and a brand-safe environment with low fraud. 
+
+With extremely high attention rates across all screens, buyers not only should include in-game advertising into their strategy — they must. 
+
+The new standards will inevitably bring more advertisers to the in-game world, and it will be an exciting time to see more success stories emerge, which will invite even more advertisers in.
+
+With big names like Microsoft and Sony looking to advertise, advertisers will have a wider scope to feature their brands in AAA titles with in-game ads. 
+
+They’re no longer limited to just mobile games. It signals a shift towards ads becoming more acceptable in these kinds of games, when used in a responsible and measurable way.
+
+Chaim Berko
+Senior Programmatic Account Manager, EMEA at Anzu
+
+Further reading
+Intrinsic In-Game (IIG) Advertising Measurement Standards: What They Mean for In-Game Advertising
+7 Great Examples of In-Game Advertising
+What Is In-Game Advertising and How Does It Work?
+Top Companies in the In-Game Advertising Industry
+Digital Out Of Home (DOOH)
+With the DOOH industry growing and capturing more ad spend, where are the biggest opportunities for brands in 2023? 
+DOOH has seen a resurgence over the past year thanks to the end of COVID-related lockdowns coming to an end.
+
+There are many opportunities for brands in DOOH, but to me, the biggest ones are connected with new ad formats and new DOOH displays.
+
+1. New Ad Formats
+OOH advertising has always been a highly effective channel for building brand awareness and driving sales, but it’s also allowed advertisers to explore their creative side.
+
+With the rise of DOOH, brands will have even more creative avenues to explore. In recent times, a number of 3D DOOH ads have highlighted the possibilities of not only technology but creativity as well.
+
+2. New DOOH Displays
+When most people hear the words “DOOH advertising”, they think of digital billboards and displays in shopping centers. While these represent the main DOOH displays, many new ways of advertising outdoors are starting to emerge. 
+
+Rideshare and food delivery companies have a great opportunity to create a new revenue stream by offering brands the opportunity to display ads to their customers. For example, rideshare companies can add a digital display inside their vehicles and offer brands the opportunity to show personalized ads to their target audience.
+
+When it comes to new forms of DOOH advertising, the possibilities are endless.

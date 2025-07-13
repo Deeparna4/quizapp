@@ -1,0 +1,238 @@
+06.
+
+Ad Serving
+
+Since the beginning of online advertising over two decades ago, a number of technologies have been introduced to solve the numerous problems advertisers and publishers face and to improve the entire media-buying and selling process.
+
+While the invention of AdTech platforms like demand-side platforms (DSPs), supply-side platforms (SSPs), and ad exchanges helped shape the online advertising ecosystem, it’s hard to look past one early piece of AdTech that is still relevant today — the ad server.
+
+Ad servers have constantly evolved to meet the demands of advertisers and publishers and adapt to the rapidly changing field. As a result, many of the functionalities—e.g. targeting, budget control and frequency capping—appear in many of the more recent platforms, such as DSPs and SSPs.
+
+In this chapter, we explore one of the most fundamental technology platforms and processes in online display advertising today.
+
+You’ll not only learn about an ad server (platform) and ad serving (process) and how they work, but also uncover their inner workings and why they are a vital component of online display advertising.
+
+What Is an Ad Server?
+An ad server is an AdTech platform responsible for making decisions about what ads to show, serving them, and collecting and reporting data on impressions, clicks, etc.
+
+To help you understand the role of an ad server, think of it this way:
+
+Ad servers are to ads (creatives) what WordPress is to content (articles).
+
+serving display
+In the same way that WordPress is used to manage a website’s content, ad servers are used to manage and display advertising on a website.
+
+Publishers, advertisers and ad agencies use ad servers to run multiple campaigns, often by connecting to other AdTech platforms, such as demand-side platforms and supply-side platforms.
+
+Campaign Execution Using an Ad Server: Then and Now
+The way online ads have been bought, sold, and delivered has changed a lot over the past two decades, but what hasn’t changed is the importance and role that ad servers play.
+
+Below is an illustration of how the ad-serving process looked in the late 1990s to early 2000s, and how ad servers emerged.
+
+In the early days of online advertising, executing a campaign was a manual process that only involved direct communication between the advertiser and publisher.
+
+The brand and publisher relationship
+Then, the publisher’s ad server was introduced to help them run and report on advertisers’ campaigns.
+
+The brand and publisher relationship with first-party server
+Here’s how the basic flow would look:
+
+The advertiser and publisher sign an insertion order (IO), which is a document (often a contract) that outlines the terms of the campaign, including flight dates (start and end dates), placement, ad format and size, pricing model (e.g. CPM or CPC), and a few other details.
+The advertiser sends over a list (typically a spreadsheet) of its creatives.
+The publisher’s AdOps team sets up the campaign in its ad server.
+Once the campaign starts, the advertiser then receives ongoing reports from the publisher about the performance of its campaign, such as impressions and clicks.
+What’s the Difference Between Ad Trafficking and AdOps?
+
+The terms ad trafficking and AdOps are often confused with one another, but there is a small difference.
+
+Ad trafficking is the name given to the process of setting up, monitoring, and optimizing the campaigns conducted by ad servers and/or other AdTech platforms.
+
+AdOps are people who are responsible for setting up, monitoring, and optimizing campaigns.
+
+In short, AdOps refers to the people and ad trafficking refers to the process.
+
+First-Party (Publisher’s) Ad Server
+A publisher’s ad server is tasked with filling the ad slots on a website by matching ads from direct campaigns, real-time bidding (RTB) auctions, and other media-buying processes.
+
+They do this by making decisions about which ads to show on a website based on the targeting parameters of campaigns set up by advertisers, serving those ads, and reporting on their performance.
+
+Another feature of ad servers is inventory forecasting, which involves predicting how much inventory a publisher will have available in the future and the performance of ad campaigns based on current and historical data.
+
+Soon, advertisers started using ad servers to measure the performance of their campaigns for themselves. These ad servers are known as a third-party or advertiser’s ad server.
+
+The brand and publisher relationship with first and third-party server
+Third-Party Ad Servers
+Earlier in the book, we outlined the following challenges advertisers faced when dealing directly with publishers:
+
+Limited reach of a single campaign.
+Reporting overhaul – i.e. no single way to measure the campaign across different publishers.
+Reporting verification –  i.e. no way to verify the reports provided by the publisher.
+Even though the invention of the ad server solved many of these challenges through automation, new challenges arose for advertisers.
+
+The booming online ad business was attracting more new publishers; however, not all of them were playing fair. Advertisers soon found that they could no longer trust the reports generated by publishers and ad networks.
+
+In order to gain the independent reports from their campaigns that ran on multiple publishers and ad networks, advertisers started using independent ad servers, known now as third-party ad servers (aka advertiser’s ad server).
+
+An ad server allows advertisers to:
+
+Track the performance (impressions, clicks, conversions, etc.) of the whole campaign across all publishers in a single system.
+Measure the reach of a campaign while taking into account the co-viewership across publishers.
+Verify the reports provided by the publishers.
+First- and third-party servers
+How Does an Ad Server Work?
+Now that we know what an ad server is and what it is responsible for, let’s take a look at its mechanics.
+
+First, let’s look at how a publisher’s ad server works:
+
+How serving works with just a first-party server
+And now an advertiser’s ad server:
+
+
+First-Party vs. Third-Party Ad Servers: A Simple Comparison
+While first-party and third-party ad servers are essentially the same type of machine, they fulfill different responsibilities for publishers and advertisers.
+
+First-Party Ad Server
+(Publisher’s Ad Server)
+
+Third-Party Ad Server
+(Advertiser’s Ad Server)
+
+Allows AdOps to manage ad slots on the website, run multiple direct campaigns (i.e. direct deals between the publisher and advertiser) and manage third-party tags from other ad servers or ad platforms, such as SSPs.	Tracks the performance of the campaigns across all the sites that are involved in a particular campaign (e.g. reach, impressions, clicks, conversions), calculates the return on investment (ROI) and attributes the conversions to the right publishers.
+Helps publishers manage and predict their inventory fill rates across many advertisers, provides reporting for billing purposes and tracks their earnings and actual fill rates. A first-party ad server also identifies the efficiency of third-party demand sources (e.g. via RTB) and direct deals, which helps publishers identify which sources are buying the most ad space and assign priority accordingly.	Helps the advertiser optimize its future media buys based on past data, identifies which sites and targeting criteria worked and which didn’t, and runs A/B tests to determine which ads deliver the best performance.
+Allows publishers to forecast the amount of inventory that matches certain targeting criteria. For example, it can tell them how much traffic they receive from NY State on their homepage’s ad placement so that the sales team can offer the right quantity on insertion orders for advertisers.	Allows advertisers to audit and verify the numbers (i.e. performance metrics) for billing purposes.
+How Ad Serving Works From a Technical Perspective
+Below are two detailed technical examples of how ad serving works.
+
+The first illustrates how ad serving works with just a publisher’s ad server:
+
+How publisher's server works
+The second illustrates the ad-serving process with both a publisher’s and an advertiser’s ad server:
+
+How serving works with a first-party and third-party server
+The Anatomy of an Ad Server
+Below you’ll find the various ad-serving components, such as the ones listed in the diagrams above.
+
+Ad Tags
+An ad tag is a piece of code that is inserted into an ad slot in order to display an ad.
+
+There are different types of ad tags depending on their implementation.
+
+Below, we list the most common ad tags, how they are used and implemented, and the advantages and disadvantages they offer:
+
+JavaScript Ad Tags
+Usage: For rendering display ads on web pages via a desktop or mobile browser. JavaScript ad tags are also used for display ads in mobile apps, but generally these will be custom tags or Mobile Rich Media Ad Interface Definition (MRAID).
+
+Implementation: JavaScript ad tags are placed directly in the publisher’s page code. 
+
+Advantages:
+
+Ads can interact with a publisher’s website
+Viewability can be tracked
+Ads can be loaded at the same time or after the content is loaded (depends on the implementation)
+Disadvantages:
+
+Ads can change the content of the publisher’s website, causing it to break its functionality.
+Ads could compromise the security of the website and result in installing malware that captures sensitive data from forms, such as usernames, passwords, email addresses, etc. An example of this is the recent Magecart attack where credit-card details of a possible 380,000 customers were taken from Newegg and British Airways via JavaScript injection. 
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-215425987452";
+google_ad_slot = "89757654265";
+google_ad_width = 250;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+Iframe Ad Tags
+Usage: For rendering display ads on web pages via a desktop or mobile browser.
+
+Implementation: Iframe ad tags are HTML tags that are added to a publisher’s page code. The iframe completely isolates the code loaded in the iframe, and therefore, prevents it from interacting with the rest of the content of the website.
+
+Advantages:
+
+Protects the publisher against ad codes that could change the content of the website.
+Increases security by isolating JavaScript code in the iframe so that it cannot interact with elements on the website.
+Ads load after the contents of the website, which helps decrease the time it takes to load the contents of the page.
+Disadvantages:
+
+Limited interaction with a publisher’s website – i.e. it requires additional JavaScript code to be installed on the publisher’s website to implement expandable ads.
+Can’t reliably track the viewability of ads.
+Here’s an example of an iframe ad tag from OpenX:
+
+
+<iframe id='a62ae7d3' name='a62ae7d3'
+src='http://delivery_server_domain/w/1.0/afr?auid=8635&cb=INSERT_RANDOM_NUMBER_HERE&rd=5&rm=3"
+frameborder='0' scrolling='no' width='728' height='90'>
+<a href='http://delivery_server_domain/w/1.0/rc?cs=acd22faf&cb=INSERT_RANDOM_NUMBER_HERE" target='_blank'>
+<img src='http://delivery_server_domain/w/1.0/ai?uid=8635&cs=acd22faf&cb=INSERT_RANDOM_NUMBER_HERE"
+border='0' alt='' /></a></iframe>
+SafeFrame
+In order to solve the issues related to both JavaScript ad tags and iframe ad tags, a new standard was introduced – SafeFrame.
+
+SafeFrame is an Interactive Advertising Bureau (IAB) standard that combines the advantages of iframe and JavaScript tags and eliminates many of their disadvantages. 
+
+The SafeFrame ad slots are implemented in JavaScript with an API that loads the actual ads in iframes, but allows them to interact with its API to expand the content or track viewability. At the same time, it protects the publisher’s site from unwanted changes and prevents visitors’ sensitive information from being collected. 
+
+safeframe example
+An example of how SafeFrame works.
+Here’s how the SafeFrame implementation works:
+
+The user accesses the publisher’s website and the browser sends a request to the publisher’s web server to fetch the content and SafeFrame ad markup.
+SafeFrame (JavaScript) loads an iframe with the SafeFrame API, allowing it to interact with the publisher’s site.
+The ad is rendered and shown to the user.
+At the same time, data is collected by viewability and measurement vendors to provide advertisers with reports.
+It’s important to note that the ad in the iframe loaded by the SafeFrame is isolated – i.e. third-party ad servers can run any JavaScript code inside the iframe, but it won’t affect the publisher’s website. Only specific sets of instructions and interactions with a publisher’s site are allowed via the SafeFrame API, such as data collection for viewability and measurement.
+
+VAST and VPAID (For Video Ads)
+When it comes to serving video ads, the video ad-serving template (VAST) and video player ad-serving interface definition (VPAID) formats are used.
+
+VAST is an XML schema developed by the IAB. It enables in-stream video ads (i.e. ads are displayed in the video player, like on YouTube) served from video ad servers and played in video players on a number of publisher sites and on different devices (e.g. desktop, mobile, tablet, etc.).
+
+VPAID is a piece of JavaScript that enables video ad units and video players to interact with one another.
+
+IMG Ad Tags
+IMG ad tags are HTML tags and are similar to iframe tags. 
+
+Usage: These ad tags are mainly used to display ads in mobile apps and in the <noscript> section of other types of ad tags, which are used as fallbacks when the browser does not support or execute JavaScript.
+
+Implementation: 
+
+Most AdTech platforms and publishers will only accept snippets of HTML/IMG ad tags and not full HTML code (e.g. no <html>, <head> or <title> tags). 
+
+See example of an HTML/IMG ad tag below:
+
+
+<a href="https://www.clearcode.cc/"> <img src="http://clearcode250x250.jpg"> </a>
+Advantages:
+
+HTML/IMG ad tags are simple in structure and format, meaning they can be displayed in web browsers and apps without facing too many technical issues.
+They can utilize a content-delivery network (CDN) to reduce the time it takes the browser to load them, increasing the chances of the visitor seeing the ad.
+Disadvantages:
+
+HTML/IMG ad tags can’t display rich media ads (e.g. expandable or interactive ads).
+Spreadsheets with ad tags
+
+In order for advertisers to keep track of ad tags used in their campaigns, they often create spreadsheets. 
+
+A typical spreadsheet will include the list of placements and the respective ad tags. Even though this is a manual and error-prone process, it is still the most common way of trafficking the non-programmatic display campaigns (i.e. direct deals between a publisher and advertiser) and also some programmatic campaigns when using self-serve AdTech platforms.
+
+Spreadsheet with tags
+A typical spreadsheet with a list of placements and respective ad tags
+Ad Markup
+Ad markup is a piece of code that’s retrieved from an ad server or some other AdTech platform via an ad tag and rendered in an ad slot.
+
+Example of display markup
+Ad markup is responsible for two main activities:
+
+Loading the actual creative file into the ad slot.
+Tracking the impression by loading tracking tags (pixels) for measurement, ad verification, viewability, etc.
+See an ad markup example below:
+
+
+ <a href="https://www.mopub.com/nike.com"> <img src="http://nike320x50.jpg"> </a>
+
+ Chapter Summary
+Ad serving is one of the fundamental processes in online advertising.
+A first-party ad server is used by publishers to manage the ad slots on their websites, serve ads from direct campaigns, manage other campaigns (e.g. real-time bidding), and report on the performance of the ads (e.g. impressions and clicks).
+A third-party ad server is used by advertisers to manage their creatives, send ads to publishers, and collect data about the performance of their campaigns.

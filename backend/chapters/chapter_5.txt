@@ -1,0 +1,284 @@
+05.
+
+The Main Digital Advertising Mediums and Channels
+
+Before the Internet existed, brands and agencies used mediums like newspaper ads, direct-mail brochures and TV commercials to push their message to the masses.
+
+Nowadays, they are spoiled for choice with numerous mediums and channels available to them.
+
+What’s the difference between a medium and a channel in advertising?
+
+The terms medium and channel are often used interchangeably. 
+
+For example, the Internet could be described as both a medium and a channel.
+
+For the sake of consistency, in this book we’ll run with the following definitions: 
+
+Medium: A means of verbal or non-verbal communication. Examples include text ads, video ads and radio ads.
+
+Channel: A means of transmission or distribution. Examples include display, social media and TV advertising. 
+
+For example, you could create a video ad (medium) and decide to advertise it on Facebook (channel).
+
+Below are the main mediums and channels advertisers have at their disposal in today’s digital world.   
+
+Advertising Mediums
+Text and Image Ads
+When advertising moved online in the late 1990s, the only medium available to advertisers was text and image ads. 
+
+As we mentioned earlier in the book, this was the first very online ad:
+
+
+Text and image ads now come in many different formats:
+
+Text promoting services and products
+Examples of text ads
+Examples of image
+Examples of image ads.
+Although there have been a number of new mediums released over the years, text and image ads are still the most popular medium for display advertising. 
+
+Text and image ads can be served and displayed via HTML, JavaScript, iframe and SafeFrame tags. 
+
+Native Ads
+Native ads are designed to blend in with the rest of the surrounding content by following the natural form of the user experience and matching the design and behavior of the web page, application, or platform.
+
+Although native ads are meant to look like the surrounding content, they still need to be a clear and prominent disclaimer stating that they are paid advertisements. 
+
+Native ads are generally found on content-rich sites, such as news sites, blogs, and social networks.
+
+Here are some of the main native-ad formats provided by the IAB’s Native Advertising Playbook 2019:
+
+Content recommendation ads (formerly known as content recommendation widgets): This form of native advertising is probably the most subtle. You may have glanced over this type before and presumed that it is actually content from the website you’re reading. However, the telltale sign is the message above the ads, usually written as From the web, or Recommended for you.
+
+
+An example of content recommendation ads.
+Source: IAB Native Advertising Playbook 2.0
+As this type of native advertising appears on content-rich sites, typically at the end of an article.
+
+In-feed or in-content ads: These native ads are similar to content recommendation ads, in-feed and in-content ads. They usually appear in article and content feeds (in-feed ads) and inside articles (in-content ads).
+
+Example of in-feed and in-content native
+Example of in-feed and in-content native ads.
+Source: IAB Native Advertising Playbook 2.0
+In-feed and in-content ads come in many forms, such as content (text), image, and video. 
+
+Branded/ Native Content: (aka sponsored, brand, or custom content): Unlike the previous two forms of native ads that direct the user away from the site when they click on the ad, branded (aka native) content involves companies paying to show their branded content on a website, like a news site or blog, and is displayed just like the other forms of editorial content on the site.
+
+Some great examples of branded content come from Netflix’s ad campaigns promoting the shows Orange is the New Black and House of Cards:
+
+Orange is the New Black native example of The New York Times
+Image source: The New York Times
+House of Cards native example of The Atlantic
+Source: The Atlantic
+Creating these types of branded content typically involves collaboration between the brand and the publisher’s editorial teams, leading to more creative and engaging content, compared to the other forms of native ads.
+
+Other Forms of Native Advertising
+The first version of the IAB’s Native Advertising Playbook included paid search and promoted listing as examples of native ads, however, these are no longer classified as native ad types, instead fall under the Search Advertising category listed below.
+
+Video Ads
+Video advertising refers to ads displayed in the form of a video, instead of their traditional static form, such as banner ads.
+
+When you think about video advertising, try not to confuse it with television advertising – they are not the same thing, although it’s getting more difficult to differentiate between the two because of online streaming services.
+
+Depending on the channel, serving a video ad is similar to serving an image, text or native ad, except that the creative (i.e. the video) is sent to and displayed in a video player rather than as part of the web page itself.
+
+Also, most video ads are served via protocols developed by the IAB Tech Lab, such as VAST, VPAID, and VMAP.
+
+Video ad serving template (VAST)
+This protocol solved many of the compatibility issues that advertisers and publishers faced when serving video ads. VAST supports many different types of video formats (e.g. MP4, 3GP, and MOV), can serve pre-roll, mid-roll, and end-roll ads, and provides some interactive functionalities like pausing and skipping ads.
+
+Pre-roll and mid-roll examples of VAST
+Video player ad interface definition (VPAID)
+VPAID allows advertisers to serve rich, interactive ads to users and collect data about how they interact with their video ads, such as if users click different tabs to view more information.
+
+Advertisers can also collect data on whether users engage with different elements, such as filling in a form, completing a survey or even playing a game. 
+
+In 2017, the IAB Tech Lab announced that it would retire the VPAID standard and replace it with the Secure Interactive Media Interface Definition (SIMID) for providing interactive functionalities and the Open Measurement Interface Definition (OMID) for attribution.
+
+Here’s a look at how these standards can be used for video advertising:
+
+SMID and OMID from the IAB
+Video multiple ad playlist (VMAP)
+VMAP allows content creators – i.e. those creating the video – to specify where the ad breaks should be placed. This is especially useful for video-content creators who want to control the video experience but don’t control the actual video player. 
+
+Thanks to VMAP, video-content creators can define the following:
+
+Ad breaks within their content
+Timing for each break
+How many breaks are available
+How many ads are allowed in each break
+Rich Media Ads
+Rich media is an interactive form of advertising and can include animated images (e.g. gifs), audio files, and videos. 
+
+Unlike traditional text and image ads, rich-media ads often include elements that allow the user to interact with the ad, like the ones listed in Google’s Rich Media Showcase:
+
+Rich Media Gallery from Google
+Rich-media ads come in many different formats, such as:
+
+Banners: Similar to the standard text banners, but with interactive elements.
+Expanding: Ads that start off as normal banner ads, but then expand when the user clicks on them. These ads can expand in different directions, such as from right to left or top to bottom. 
+Interstitials: Rich-media ads that float on top of the page’s content.
+Lightboxes: These ads are similar to expanding ads in that they expand and often take over the whole screen when a user interacts (e.g. hovers over the ad for at least two seconds) or clicks on the ad.
+The ads are typically created and displayed using HTML5 or JavaScript and can utilize VAST or the mobile rich media ad interface definition (MRAID) – another IAB standard. 
+
+MRAID is an application programming interface (API) used to display rich-media ads in mobile apps.
+
+Because mobile apps can be built using different programming languages and run on different operating systems, MRAID provides a standard framework that allows content creators and advertisers to run rich-media ads across all mobile devices and apps.
+
+Audio Ads
+While text, image and video ads have dominated the online-advertising scene for over a decade, new advertising mediums are gaining popularity, with audio ads as a prime example.
+
+Due to the rise in popularity of podcasts, music-streaming services, and digital radio, audio ads are quickly becoming a new advertising medium for brands and advertisers. 
+
+Due to the similarities between video and audio files, publishers and advertisers can use the latest version of VAST (4.1) to serve ads and collect relevant data.
+
+Once upon a time, there was a separate standard for serving audio ads – digital audio ad serving template (DAAST) – but this has since merged into VAST 4.1.
+
+Just like with other digital advertising mediums, audio ads also come in different formats:
+
+Companion/banner ads: Just like the banner ads you see on web pages and mobile apps, companion or banner ads can appear on the screen when the user is listening to an audio track (e.g. a podcast or music).
+
+Audio example from Spotify
+Source: Spotify
+Ad pods: Similar to the ad pods used in video advertising, these can be used to run one or more audio ads in an audio file and can appear as pre-roll (before the content) and mid-roll (in-content) ads.
+
+Pre-roll and mid-roll audio pods.
+In-audio ad pods
+Dynamic ads: Compared to static audio ads that are designed to announce the same message to the masses, dynamic ads change based on the information known about the user, their location, the time of day, and even the weather. 
+
+Here’s an example of how you can create a dynamic ad, courtesy of A Million Ads:
+
+
+Source: A Million Ads
+Advertising Channels
+Web Advertising
+Web advertising has established roots in online advertising. It was the first channel available to brands and agencies when the world went online back in the late 1990s. 
+
+This channel refers to advertisements displayed in web browsers on desktops, laptops and mobile devices (smartphones and tablets).  
+
+Displaying ads – whether they are text, image, or video ads – in web browsers involves adding a piece of HTML or JavaScript to a page’s content. From there, the web browser will load the ads, along with the rest of the page’s content, and display the ads to the user.
+
+Display on Cambridge Dictionary
+An example of a display ad displayed on Cambridge Dictionary
+Mobile App Advertising
+Mobile app (aka in-app mobile) advertising relates to displaying ads inside mobile apps on smartphones and tablets. 
+
+Unlike web advertising on mobile devices that uses a browser to display ads, mobile apps need to use a software-development kit (SDK) to display ads. 
+
+The mobile app’s developers integrate the given AdTech vendor’s SDK into their app, define the ad space where the ads will run, and then select the ad medium (e.g. text, image, native, and video) and the ad format (e.g. interstitial and banner).
+
+An example of in-app
+An example of an in-app ad
+Social Media Advertising
+Although social media networks like Facebook, LinkedIn and Twitter fall into web advertising and mobile-app advertising categories, they are their own advertising channels.
+
+Many popular social media sites like Facebook, Twitter, Pinterest, LinkedIn and Instagram utilize native advertising, where the ads appear in and next to the news feed, making them look like organic content:
+
+Social media native
+Examples of social media advertising.
+Advertising on social media platforms provides brands, advertisers and agencies with a number of advantages:
+
+Advertisers can retarget users using the email address they provided to a brand, which often results in high conversions.
+Some social media platforms, such as Facebook and LinkedIn, collect detailed demographic and behavioral data – including a person’s name, age, location, interests, and education – providing brands with powerful audience-targeting capabilities.
+Compared to other advertising channels, such as display or video, social media advertising can be more cost-effective in terms of both reach and conversions.  
+Because most ads that run within social media platforms are native ads, they often receive more engagement (viewable impressions, clicks, likes, etc.) than traditional banner ads and are less susceptible to ad-blocking software.
+Advanced TV Advertising (OTT, Connected TV, and Addressable TV)
+TV advertising has long been the cornerstone of many brands and agencies. The ability to reach a large audience with an engaging and often entertaining message helps increase brand awareness and drive sales.
+
+Even though traditional TV is still alive and well, new forms of TV are starting to form, bringing with them new opportunities and benefits for brands and agencies. 
+
+These new forms of TV include:
+
+Advanced TV: A term coined by the IAB referring to any form of TV other than the traditional broadcast, cable and satellite connections. 
+
+OTT: Over-the-top (OTT) refers to devices or services used to stream digital content to a connected TV.
+
+Examples of OTT services include:
+
+Netflix
+Hulu
+HBO GO
+Amazon Prime
+Disney+
+AppleTV+
+Roku
+ZEE5
+Connected TV:  Connected TV (CTV) refers to devices that connect to the Internet and allow viewers to watch video content from over-the-top streaming services. Examples of CTV include smartTVs, gaming consoles, and streaming devices. The IAB Tech Lab doesn’t consider desktop computers, laptops, smartphones, and tablets as examples of CTV.
+
+Addressable TV: Unlike traditional linear TV advertising that shows the same ads during a given program, addressable TV aims to display different ads to different viewers during the same program.
+
+It is able to achieve this by using data collected via Internet Protocol TV (IPTV), which includes connected TVs and OTT devices and services, and set-top boxes.
+
+For example, a person living in Seattle watching Mad Men would see a different ad than a person living in Portland who is also watching Mad Men. 
+
+All of the above offer a number of new advantages for advertisers that are unattainable with traditional TV, such as targeting, attribution and measurement. 
+
+However, due to numerous technological barriers, the industry is still a few years away from delivering these new advantages at scale and with high accuracy.
+
+Other Forms of TV Advertising
+Apart from OTT, CTV and addressable TV, you may also hear about some other forms of TV advertising:
+
+Linear TV advertising: Linear television works by broadcasting TV programs on specific channels in scheduled time slots. In other words, the viewer has to tune in at a certain time to watch the programs they want to watch.  
+
+Linear TV advertising means displaying ads via a schedule through satellite and cable TV. The consumer has no control over the ads they see and can’t skip them. The ads are delivered to viewers without any user-level targeting methods.
+
+Hybrid Broadcast Broadband TV advertising: Hybrid Broadcast Broadband TV (HbbTV) is a combination of broadcast TV and broadband Internet that aims to deliver an enhanced experience for viewers by offering additional services and content, which are typically accessed with remote control via a connected TV (e.g. smartTV).
+
+The viewer can turn on an application when they see the prompt on their TV, which is often in the form of a red dot in the corner of the screen. HbbTV applications can also be accessed via game consoles, over-the-top (OTT) streaming devices, and set-top boxes.
+
+HbbTV ads are delivered via special applications and multiple server connections between the HbbTV broadcaster and AdTech platforms.
+
+Ad applications in HbbTV are created with web technologies such as HTML, CSS, Media Source Extensions (MSE), Encrypted Media Extensions (EME), and the Timed Text Markup Language (TTML). 
+
+DOOH Advertising
+Out-of-home (OOH) advertising was a popular medium prior to the internet. Brands and agencies would advertise on billboards, street furniture (think bus stops and telephone boxes), and on taxis, buses and subway walls. 
+
+DOOH on bus displays.
+Source: JCDecaux
+DOOH on trams.
+Source: JCDecaux
+Thanks to technological advancements in OOH displays (e.g. digital screens, Internet connectivity and sensors) digital out-of-home (DOOH) advertising is giving new life to this traditional advertising medium and allowing brands and agencies to explore new creative formats.
+
+Below are some examples that highlight the possibilities that DOOH has to offer: 
+
+
+
+Although DOOH is one of the most exciting trends in digital advertising, it is experiencing some initial hurdles around the media-buying process, attribution, measurement and targeting. 
+
+However, all of these areas present opportunities for AdTech companies and will likely be addressed and resolved in the coming years.
+
+Search Advertising
+Whenever you look for a product or service online, search engines like Google, Bing, and DuckDuckGo display a mix of organic and sponsored results. Search engines have ways to indicate which results are sponsored, and which are not.
+
+Search engine example
+Sponsored ads in Google search. Links are marked with a green “Ad” box.
+Sponsored ads are displayed in the search engine when someone enters keywords matching the services or products offered by the advertiser. In this way, the ads perfectly match the query.
+
+Search ads are considered to be very effective, as they are based on the explicit intent of the users, rather than just on implicit information about what they might be after, and are also displayed in the native ad format.
+
+Both of these factors lead to higher click-through and conversion rates among search ads compared to banner ads.
+
+Who Offers Search Ads?
+Search Engines
+
+Most search-engine companies operate platforms allowing ads in their search results (Google does it via AdWords, Bing does it via Bing Ads, etc.). This is a natural way for search providers to monetize their huge user base.
+
+While the global search-engine market is currently dominated by Google with an eye-watering 77% market share (and growing), there are many other search engines that make up the remaining percentage:
+
+Google (~77%)
+Baidu (~9%)
+Microsoft Bing (~8%)
+Yahoo! (~3%)
+Yandex (~1%)
+Publishers
+
+Although most Internet searches are carried out on one of the main search engines, many publishers (particularly ecommerce stores) have their own search functionalities and allow ads, often in the form of promoted listings.
+
+Promoted Amazon search results
+Examples of search ads on Amazon.
+The search results in the image above are paid ads.
+The search functionalities on these sites not only make finding products and services easier, but also enable the publisher to offer search advertising to merchants. 
+
+This is a win-win situation for both the ecommerce store and the merchant (advertisers), as the ecommerce store is able to create a new revenue stream and the merchant is able to increase sales. 
+
+Now that we’ve examined the digital advertising mediums and channels, it’s time to look at how these ads are served and displayed to users.

@@ -1,0 +1,121 @@
+15.
+
+AdTech From The Vendors’ And Agencies’ Perspective
+
+So far in this book we’ve mainly been focusing on technical topics and the relationship between advertisers and publishers, but in this chapter, we’ll briefly cover the business side of AdTech and what that looks like for technology vendors (e.g. DSPs and SSPs) and advertising agencies.
+
+AdTech from the Vendor’s Perspective
+To summarize AdTech from the vendor’s perspective, we’ll look at two main areas: AdTech business models and the main technical challenges with running an AdTech company. 
+
+AdTech Business Models
+The two most common business models employed by AdTech companies are fixed CPM and a percentage of the media cost, but many AdTech companies are switching to, or at least incorporating, the traditional usage model found at other software-as-a-service (SaaS) companies. 
+
+Here’s an overview of the main pricing models used by AdTech vendors today:
+
+Business model	Description
+Fixed CPM	Clients pay a fixed cost per mille for every impression served.
+Percentage of media spend	Clients pay a percentage of the media cost. So if an advertiser buys inventory at $1.50 CPM, the DSP it uses to buy the inventory could charge 10%, meaning the total cost of the ad for the advertiser would be $1.65.
+SaaS	Clients pay a set price per month based on the number of users (aka seats).
+
+There are many variations of the SaaS pricing model and many vendors can incorporate elements of it and combine it with the fixed CPM and percentage of media spend models.
+To read more about the above models, we recommend this article by Beewax’s co-founder and CEO, Ari Paparo: The Entrepreneur’s Guide To Ad Tech Business Models
+
+The Main Technical Challenges of Running an AdTech Company
+Although the technical challenges AdTech companies face vary from company to company, there are a few that all AdTech vendors would experience:
+
+Performance and scalability: Due to the real-time and fast nature of programmatic media buying, AdTech vendors need to ensure their platforms can handle large volumes of bid requests per second and produce reports within a short period of time, e.g. showing analytics data within 15 minutes of the impression being displayed. This is critically important for platforms like DSPs and SSPs that have only 100ms to conduct an RTB auction. 
+
+Keeping infrastructure and cloud computing costs down: Because many AdTech platforms handle large volumes of traffic (e.g. ad requests and responses), it’s important for them to keep infrastructure and cloud computing costs down. One way to achieve this is to optimize their cloud computing architecture and select better performing systems (e.g. databases). 
+
+Finding developers with skills and experience in building AdTech platforms: Designing and building AdTech platforms is much different than building other types of software and there’s a long and steep learning curve attached to it. Building AdTech platforms requires understanding of how the different players and platforms in the digital advertising ecosystem work and connect together. Finding developers or development companies with knowledge, experience, and skills in building AdTech platforms is a huge challenge for many companies.
+
+AdTech from the Advertising Agencies’s Perspective
+As we mentioned earlier in Chapter 04. The Main Technology Platforms and Intermediaries in the Digital Advertising Ecosystem, many brands have traditionally partnered with advertising agencies to help them with pretty much every aspect of their advertising campaigns, from creating the ads to running the campaigns across multiple publishers. 
+
+But thanks to advertising technology, some brands are taking some of the digital media-buying activities in-house.
+
+In-House Programmatic Vs In-House AdTech
+You’ll often hear folks in digital advertising talk about in-house AdTech and in-house programmatic. 
+
+In-house programmatic: When a brand uses their own AdOps teams to run ad campaigns in external AdTech platforms. 
+
+In-house AdTech: When a brand or advertising agency builds their own advertising technology platforms, such as ad servers, DSPs, SSPs, and DMPs. 
+
+Below we’ll look at the three main variations of the in-house model for brands and ad agencies.
+
+1. The Traditional Way of Buying Digital Media
+In this first example, a brand uses an advertising agency for their advertising campaigns. The advertising agency’s AdOps team would then use external AdTech platforms to execute and manage the campaigns.
+
+This is how most brands and agencies operate. 
+
+The Traditional Way of Buying Digital Media
+The main advantage of this arrangement is that the brand can outsource all of its advertising activities to the ad agency. The ad agency would handle all aspects of the advertising campaigns, including designing the creatives, setting up the campaign in AdTech platforms (e.g. ad servers and DSPs), launching the campaigns, and optimizing them to improve performance. 
+
+2. An Ad Agency Takes Programmatic Buying and AdTech In-House
+An Ad Agency Takes Programmatic Buying and AdTech In-House 
+In this third example, an agency has its own in-house AdOps team and its own in-house AdTech platforms.
+
+The biggest advantage of taking all aspects of programmatic buying and AdTech in-house is control and ownership of the technology and data, which will provide the agency with transparent insights into the true cost of its media spend and audiences. 
+
+The main disadvantages of this setup would be costs. Building AdTech platforms requires a big financial investment in the beginning and then an ongoing investment to maintain the AdTech platforms. 
+
+Therefore, this sort of situation is mainly reserved for large agencies whose revenues from media campaigns are enough to justify the large financial investments in building and maintaining AdTech platforms.
+
+3. A Brand Takes Programmatic Buying In-House
+A Brand Takes Programmatic Buying In-House
+In this example, a brand bypasses the ad agency and uses an in-house AdOps team and external AdTech platforms.
+
+For brands, there are a number of advantages of taking programmatic media buying in-house. The main ones being cost savings as the brand doesn’t have to pay an ad agency, and more control over their data, ad placements, and audience relationships.
+
+However, bypassing an ad agency means that brands miss out on some of the most critical parts of any successful ad campaign like brand development, advanced marketing tactics and methods, and large amounts of creativity, which are all provided by ad agencies. 
+
+4. A Brand Takes Programmatic Buying and AdTech In-House
+In this situation, a brand takes both programmatic media buying and AdTech in-house. 
+
+Just like in the example above, one major drawback is the absence of creativity and experience that’s provided by ad agencies.
+
+A Brand Takes Programmatic Buying and AdTech In-House
+The main advantages of in-house programmatic and AdTech for brands are control, transparency, and cost savings.
+
+By using their own AdOps team and AdTech platforms, brands will have much more control over their data and relationships with their supply-side partners and publishers, and have greater transparency into the media-buying process (e.g. which partners are delivering the best results and the real cost of their bids).
+
+Brands will also save money on fees and commissions, however, these cost savings will only appear after they’ve paid off the original investment in building the tech. Also, if a brand doesn’t spend enough on media, then they might not have any long-term cost savings at all.  
+
+Advertising Technology: The Build vs Rent Dilemma
+As we saw in examples 2 and 4 above, some ad agencies and brands have built their own AdTech platforms. 
+
+Below we take a look at the advantages and disadvantages of this topic from both the business and technology perspective.
+
+Build vs Rent: From The Business Perspective
+Build	Rent
+Advantages:
+Reduce mark-up on media spent.
+More transparency on the cost of the media.
+Intellectual property ownership.
+Can increase company value.
+Advantages:
+Access to industry experts.
+A dedicated support team.
+The ability to start running campaigns straight away.
+Typically low or no upfront costs.
+Disadvantages:
+Relatively high upfront costs to build or acquire the technology.
+Ongoing maintenance and operational costs.
+Additional risks due to inexperienced staff.
+Disadvantages:
+Fees and commissions.
+A lack of transparency into the cost of media buys etc.
+From The Technology Perspective
+Build	Rent
+Advantages:
+Control of the data.
+Control of the platform’s features and roadmap.
+Custom proprietary features and algorithms.
+Advantages:
+Instant access to a range of fully developed features.
+Access to a vast range of inventory & data sources.
+Disadvantages:
+Long learning curves for your in-house team.
+Lengthy implementation and rollout processes.
+Disadvantages:
+There’s often a lack of or limited customization possibilities.
