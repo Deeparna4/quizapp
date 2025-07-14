@@ -8,9 +8,9 @@ import Dashboard from './pages/Dashboard';
 import ChapterQuiz from './pages/ChapterQuiz';
 import ScorePage from './pages/ScorePage';
 import { useAuth } from './context/AuthContext';
-import Navbar from './components/Navbar'; // add at the top
+import Navbar from './components/Navbar'; 
 
-// add just above your main container in Dashboard, ScorePage, ChapterQuiz
+
 
 const App = () => {
   const { user } = useAuth();

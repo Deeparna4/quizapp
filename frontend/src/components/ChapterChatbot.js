@@ -42,11 +42,11 @@ const ChapterChatbot = ({ chapterNumber }) => {
   wrapper: {
     marginTop: '30px',
     padding: '20px',
-    backgroundColor: '#fff0f5', // very light pink
+    backgroundColor: '#fff0f5', 
     borderRadius: '10px',
     boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)',
     fontFamily: 'Segoe UI, sans-serif',
-    maxWidth: '900px',         // 💡 increased from default to 900px
+    maxWidth: '900px',         
     marginLeft: 'auto',
     marginRight: 'auto',
   },

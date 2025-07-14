@@ -12,9 +12,9 @@ const ChapterQuiz = () => {
   const [score, setScore] = useState(null);
   const [correctAnswers, setCorrectAnswers] = useState([]);
 
-  // 👉 Set body background color on mount
+  
   useEffect(() => {
-    document.body.style.backgroundColor = '#f3e5f5'; // soft lavender
+    document.body.style.backgroundColor = '#f3e5f5'; 
     document.body.style.margin = '0';
     document.body.style.fontFamily = 'Segoe UI, sans-serif';
 
@@ -74,7 +74,7 @@ const ChapterQuiz = () => {
   if (optIndex === correct) {
     return {
       ...base,
-      backgroundColor: '#d4edda', // soft green
+      backgroundColor: '#d4edda', 
       border: '1px solid #28a745',
       color: '#155724',
     };
@@ -83,7 +83,7 @@ const ChapterQuiz = () => {
   if (optIndex === selected && selected !== correct) {
     return {
       ...base,
-      backgroundColor: '#ffe6f0', // pink highlight for wrong
+      backgroundColor: '#ffe6f0', 
       border: '1px solid #e84393',
     };
   }
@@ -98,7 +98,7 @@ const ChapterQuiz = () => {
       padding: '20px',
     },
     header: {
-      background: '#f8bbd0', // soft pink
+      background: '#f8bbd0', 
       color: '#4a148c',
       padding: '10px 20px',
       borderRadius: '10px',
@@ -145,7 +145,7 @@ const ChapterQuiz = () => {
 }
 ,
     submitButton: {
-      backgroundColor: '#ec407a', // pink
+      backgroundColor: '#ec407a', 
       border: 'none',
       padding: '8px 20px',
       fontSize: '14px',

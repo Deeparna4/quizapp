@@ -4,7 +4,7 @@ const OpenAI = require('openai');
 
 const openai = new OpenAI({
   apiKey: process.env.OPENROUTER_API_KEY,
-  baseURL: 'https://openrouter.ai/api/v1', // ✅ Use OpenRouter's API endpoint
+  baseURL: 'https://openrouter.ai/api/v1', 
 });
 
 const getChapterContent = (chapterNumber) => {
@@ -23,12 +23,13 @@ const askChapterAI = async (req, res) => {
 
   try {
     const completion = await openai.chat.completions.create({
-      model: 'mistralai/mistral-7b-instruct', // ✅ Free model
+      model: 'mistralai/mistral-7b-instruct', 
       messages: [
         {
-          role: 'system',
-          content: `You are a helpful educational assistant. Use the following chapter content to answer questions.\n\n${context}`,
-        },
+  role: 'system',
+  content: `You are a helpful educational assistant. Only answer based on the content of this chapter. Do not guess. If the answer is not in the text, say "Sorry, this chapter does not contain information about that." \n\n${context}`,
+}
+,
         {
           role: 'user',
           content: question,

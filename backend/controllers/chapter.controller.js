@@ -1,10 +1,8 @@
-// server/controllers/chapter.controller.js
+
 
 const Chapter = require('../models/Chapter');
 
-// @desc    Get all chapters
-// @route   GET /api/chapters
-// @access  Public
+
 const getAllChapters = async (req, res) => {
   try {
     const chapters = await Chapter.find().sort({ number: 1 });
@@ -14,9 +12,7 @@ const getAllChapters = async (req, res) => {
   }
 };
 
-// @desc    Add a new chapter (useful for seeding or admin panel)
-// @route   POST /api/chapters
-// @access  Protected (optional)
+
 const addChapter = async (req, res) => {
   const { number, title, description } = req.body;
 

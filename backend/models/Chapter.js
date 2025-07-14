@@ -1,4 +1,4 @@
-// server/models/Chapter.js
+
 
 const mongoose = require('mongoose');
 

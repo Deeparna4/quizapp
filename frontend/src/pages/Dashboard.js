@@ -8,9 +8,9 @@ const Dashboard = () => {
   const navigate = useNavigate();
   const { logout, user } = useAuth();
 
-  // Set body background color and reset on unmount
+  
   useEffect(() => {
-    document.body.style.backgroundColor = '#f3e5f5'; // lavender
+    document.body.style.backgroundColor = '#f3e5f5'; 
     document.body.style.margin = '0';
     document.body.style.fontFamily = 'Segoe UI, sans-serif';
     return () => {
@@ -56,8 +56,8 @@ const Dashboard = () => {
       flex: '1 1 220px',
       maxWidth: '260px',
       minWidth: '200px',
-      height: '180px', // Fixed height
-      backgroundColor: '#fff0f5', // pinkish
+      height: '180px', 
+      backgroundColor: '#fff0f5', 
       border: '1px solid #e1bee7',
       borderRadius: '12px',
       padding: '16px',
@@ -80,7 +80,7 @@ const Dashboard = () => {
       marginBottom: '12px',
     },
     quizBtn: {
-      backgroundColor: '#ec407a', // pink
+      backgroundColor: '#ec407a', 
       border: 'none',
       padding: '6px 12px',
       fontSize: '13px',

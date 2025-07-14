@@ -8,7 +8,7 @@ const ScorePage = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    document.body.style.backgroundColor = '#fbeaff'; // soft lavender-pink
+    document.body.style.backgroundColor = '#fbeaff'; 
     document.body.style.margin = '0';
     document.body.style.fontFamily = '"Segoe UI", sans-serif';
     return () => {

@@ -10,7 +10,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    document.body.style.backgroundColor = '#f8eafc'; // soft lavender-pink background
+    document.body.style.backgroundColor = '#f8eafc'; 
     document.body.style.margin = '0';
     document.body.style.fontFamily = '"Segoe UI", sans-serif';
     return () => {
@@ -42,7 +42,7 @@ const Login = () => {
       margin: '80px auto',
       padding: '32px',
       borderRadius: '16px',
-      backgroundColor: '#f3d0ff', // soft lavender
+      backgroundColor: '#f3d0ff', 
       boxShadow: '0 6px 18px rgba(0,0,0,0.08)',
     },
     title: {

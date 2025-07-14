@@ -8,17 +8,17 @@ const Navbar = () => {
 
   const styles = {
     navbar: {
-      background: 'linear-gradient(to right, #e0bbf3, #f9c6d0)', // Lavender to pink
+      background: 'linear-gradient(to right, #e0bbf3, #f9c6d0)', 
       padding: '10px 30px',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'space-between',
       fontFamily: 'Segoe UI, sans-serif',
-      // borderBottom: '3px solid #c084f5', // Violet border
+      
       boxShadow: '0 2px 6px rgba(0, 0, 0, 0.1)',
     },
     brand: {
-      color: '#6a1b9a', // Deep violet
+      color: '#6a1b9a', 
       fontSize: '22px',
       fontWeight: 'bold',
       cursor: 'pointer',
@@ -28,7 +28,7 @@ const Navbar = () => {
       alignItems: 'center',
     },
     scoresBtn: {
-      backgroundColor: '#f48fb1', // Soft pink
+      backgroundColor: '#f48fb1', 
       border: 'none',
       color: '#fff',
       borderRadius: '18px',
@@ -43,7 +43,7 @@ const Navbar = () => {
       fontWeight: 500,
     },
     logoutBtn: {
-      backgroundColor: '#ba68c8', // Lavender violet
+      backgroundColor: '#ba68c8', 
       border: 'none',
       color: '#fff',
       borderRadius: '18px',

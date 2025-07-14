@@ -1,4 +1,3 @@
-// server/models/Quiz.js
 
 const mongoose = require('mongoose');
 
@@ -8,11 +7,11 @@ const questionSchema = new mongoose.Schema({
     required: true,
   },
   options: {
-    type: [String], // array of 4 options
+    type: [String], 
     required: true,
   },
   correctAnswerIndex: {
-    type: Number, // index (0-3) of the correct option
+    type: Number, 
     required: true,
   },
 });
@@ -24,7 +23,7 @@ const quizSchema = new mongoose.Schema({
     unique: true,
   },
   questions: {
-    type: [questionSchema], // array of 5 questions
+    type: [questionSchema], 
     required: true,
   },
 }, { timestamps: true });
