@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://quizapp-hjza.onrender.com',
+  baseURL: 'https://quizapp-hjza.onrender.com/api',
 });
 
 
